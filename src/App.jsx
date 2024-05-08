@@ -32,14 +32,13 @@ const App = () => {
 		</Routes> */}
 		<Home/>
 		<Sec1/>
-		<Work/>
 		<Sec2/>
 		<Sec3/>
-		<Sec5/>
+		{/* <Sec5/> */}
 		<Sec4/>
-		<Testimonial/>
+		{/* <Testimonial/> */}
 		<Sec6/>
-		<Slide/>
+		{/* <Slide/> */}
 		<Contact/>
 		<Footer1/>
 		<Footer/>

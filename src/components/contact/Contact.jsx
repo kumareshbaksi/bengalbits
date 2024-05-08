@@ -51,7 +51,7 @@ const Contact = () => {
 
 
             <div className="form__contact">
-<div className="section__title form__title">Fill Out The Form And We'll Be In Touch As Soon As Possible.</div>
+<div className="section__title form__title"><p>Fill Out The Form And We'll Be In Touch As Soon As Possible.</p></div>
           <form action="" onSubmit={handleSubmit(onSubmit)}>
 <div className="form1">
             <input placeholder='Full Name' {...register("name", { required: true })} type="text" className='inp-1'/>

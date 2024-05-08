@@ -21,7 +21,7 @@
 .nav__head{
     font-size: var(--h2-font-size);
     font-weight: 700;
-    color: hsl(120, 86%, 46%);
+    color: #0195FF;
     margin-left: 10px;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .show .items{
-    color: hsl(120, 98%, 47%);
+    color: #0195FF;
     font-size: var(--h5-font-size);
     font-weight: 700;
 }
@@ -56,7 +56,7 @@
 }
 
 .navbar-nav .nav-link {
-    color: hsl(120, 86%, 46%); 
+    color: #0195FF; 
     margin-left: 50px;
     font-weight: 600;
     font-size: var(--large-font-size);

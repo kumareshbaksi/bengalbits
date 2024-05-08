@@ -25,7 +25,7 @@
             var(--bg-color) 100%);
 
 
-            --primary-color: hsl(120, 98%, 47%);
+            --primary-color: #0195FF;
             --primary-color2:hsl(240, 71%, 84%);
             --title-color: #000;
             --text-color:#262626 ;
@@ -154,10 +154,6 @@ img {
     padding-inline: 12px !important;
     margin-inline: auto;
     
-}
-
-.container:not(.footer__container,.home__container,.sec6__container,.footeer1__container){
-    background: var(--first-gradient);
 }
 
 

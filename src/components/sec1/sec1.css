@@ -7,12 +7,11 @@
 }
 
 .sec-1{
-    
-    /* max-height: 100vh; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     row-gap: 50px;
+    padding: 50px;
 }
 
 
@@ -30,6 +29,8 @@
 
 .section__heading{
     margin-bottom: 3px;
+    text-align: center;
+    padding: 50px;
 }
 
 .span-arrow{
@@ -59,15 +60,23 @@
     margin-top: 5px;
 }
 
+.font-jost {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    color: #2596be;
+}
+
 .icon{
-    /* position: absolute; */
     margin-top: 5px;
     margin-right: 10px;
-    /* box-shadow: var(--shadow); */
     font-size: 50px;
-    /* display: grid; */
     place-items: center;
     min-width: 20%;
+    display: flex;
+    justify-content: center;
 }
 
 .icon-content{

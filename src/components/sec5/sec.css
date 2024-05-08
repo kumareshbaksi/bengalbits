@@ -1,8 +1,11 @@
+.sec5{
+    padding-block: 50px;
+}
 
 .sec5__container{
     box-shadow: var(--shadow);
   border-radius: 15px;
-  margin-top: 75px;
+  /* padding-block: 50px; */
 }
 
 .heading__title {

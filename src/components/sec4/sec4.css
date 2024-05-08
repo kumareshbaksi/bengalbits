@@ -1,11 +1,12 @@
 .sec4{
-   margin-top: 75px;
+    padding-block: 50px;
 }
 
 .sec4__container h1{
     /* background: var(--second-gradient); */
     font-size: var(--h1-font-size);
     margin-top: 20px;
+    padding: 1%;
 }
 
 .sec4__heading h5{
@@ -29,6 +30,8 @@
     justify-content: space-around; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    padding-bottom: 2%;
+    padding-left: 2%;
 }
 
 .content__item{

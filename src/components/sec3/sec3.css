@@ -1,6 +1,6 @@
-.sec3{
-    margin-top: 85px;
-}
+/* .sec3{
+    padding-block: 50px;
+} */
 
 .sec3__container {
     box-shadow: var(--shadow);
@@ -17,8 +17,14 @@
     margin-top: 20px;
 }
 
+.btns1{
+    display: flex;
+    justify-content: center;
+}
+
 .sec3__btn{
     font-size: var(--large-font-size);
+    margin-left: 10px;
 }
 
 .sec3__content{
@@ -43,6 +49,10 @@
 .text__content p{
     margin-top: 35px;
     line-height: 1.4em;
+}
+
+.sec3__heading{
+    padding: 2%;
 }
 
 @media screen and (max-width: 1200px) {

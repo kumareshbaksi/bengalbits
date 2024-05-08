@@ -7,7 +7,7 @@ import { IoAirplane } from "react-icons/io5";
 
 const Sec5 = () => {
   return (
-    <section className="sec5__container container">
+    <section className="sec5 sec5__container container">
         <div className="sec5__heading">
             <h1 className="heading__title section__title">
             Remarkable Digital Solutions For Your Business

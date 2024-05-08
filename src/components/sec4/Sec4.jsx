@@ -9,10 +9,10 @@ const Sec4 = () => {
                 <h1>Tailored Website Development</h1>
                 <h5 className='section__subtitle'>A hand-picked team of web designers and developers that excels at creating websites that inform, pursue and most-importantly convert. We’re your team of website purists that are excited to learn about your goals and help you to achieve them.</h5>
 
-                <div className="btns">
+                <div className="btns btns1">
                
-                <button className="btn sec4__btn">learn More</button>
-                <button className="btn sec4__btn">Free consultation</button>
+                <button className="btn sec3__btn">learn More</button>
+                <button className="btn sec3__btn">Free consultation</button>
                 </div>
              
             </div>

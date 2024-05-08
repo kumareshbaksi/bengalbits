@@ -3,14 +3,14 @@
     /* color: aliceblue; */
     position: relative;
     /* overflow: hidden; */
-    margin-top: 85px;
+    padding-block: 50px;
 }
 
 .sec2__container{
     box-shadow: var(--shadow);
   border-radius: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .btns{
@@ -20,6 +20,7 @@
 }
 
 .text{
+    padding: 5%;
     margin-top: 25px;
     max-width: 50%;
 }

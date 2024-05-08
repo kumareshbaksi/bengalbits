@@ -32,7 +32,7 @@ const App = () => {
 		</Routes> */}
 		<Home/>
 		<Sec1/>
-		<Work/>
+		{/* <Work/> */}
 		<Sec2/>
 		<Sec3/>
 		<Sec5/>

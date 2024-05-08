@@ -1,0 +1,73 @@
+.work__container{
+    /* background-image: url("http://127.0.0.1:5500/supportsoft.com.au/web/img/what-we-do.jpg"); */
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.heading h2{
+    font-size: var(--h1-font-size);
+    margin-top: 40px;
+}
+
+.heading p{
+    margin-top: 15px;
+}
+
+p{
+    line-height: 1.2em;
+}
+
+.main__work{
+    /* background-color: var(--bg-color-alt); */
+    /* background: var(--first-gradient); */
+    box-shadow: var(--shadow);
+  border-radius: 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-self: center;
+}
+
+.work__content-head{
+    position: relative;
+    left: 1%;
+    margin-top: 1000px;
+    font-size: var(--h2-font-size);
+    font-weight: 700;
+}
+
+
+.content-1 p{
+    margin-top: 10px;
+}
+
+.content-1 b{
+    font-size: var(--h3-font-size);
+    margin-left: 20px;
+}
+
+.content-1 li{
+    list-style: circle;
+    margin-left: 10%;
+    line-height: 2em;
+    font-size: var(--large-font-size);
+}
+
+.flex__content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about__content{
+    min-width: 50%;
+}
+
+@media screen and (max-width:770px) {
+    .flex__content{
+        flex-direction: column;
+    }
+}

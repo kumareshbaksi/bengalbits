@@ -1,0 +1,46 @@
+.brands{
+    min-height: 35vh;
+    box-shadow: var(--shadow);
+  border-radius: 15px;
+}
+
+.brands h1{
+    /* margin-left: 40%; */
+    margin-top: 50px;
+    font-size: var(--h2-font-size);
+}
+
+.brands h1 span{
+    color: red;
+    font-family: var(--second-font);
+    font-size: var(--h1-font-size);
+}
+
+.brandPic{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.brand__pics{
+    margin-bottom: 1.5rem !important;
+    width: 16.66666667%; /*min width: 768*/
+}
+
+
+.brand__pics img{
+    max-width: 80%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.btn{
+    border: 2px solid black;
+    transition: all 0.7s forwards;
+}
+
+.btn:hover{
+    background-color: var(--primary-color);
+    color: white;
+    transition: all 0.7s linear;
+}

@@ -1,0 +1,234 @@
+/*---*/
+/* google fonts */
+/*****/
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Jost:ital,wght@0,700;1,700&display=swap');
+
+/*  var */
+
+:root {
+    /**color*/
+
+    --first-gradient: linear-gradient(0deg,
+            var(--bg-color-alt) 0%,
+            var(--bg-color) 100%
+            );
+
+    --second-gradient: linear-gradient(180deg,
+            var(--bg-color-alt) 0%,
+            var(--bg-color) 100%);
+
+    --third-gradient: linear-gradient(180deg,
+            var(--bg-color) 0%,
+            var(--bg-color) 100%);
+
+
+            --primary-color: hsl(120, 98%, 47%);
+            --primary-color2:hsl(240, 71%, 84%);
+            --title-color: #000;
+            --text-color:#262626 ;
+            --text-color-alt:#4a3b3b ;
+            --title-color-alt:rgb(247, 255, 254);
+            --bg-color: #ecf1ff;
+            --bg-color-alt: #ffffff;
+            --container-color: #fff;
+            --border-color: #120b90;
+        
+        
+                /**shadow*/
+        
+                --shadow: 5px 5px rgb(0 0 0 / 20%);
+    /** typo*/
+
+    --body-font: "Jost", sans-serif;
+    --second-font: "Caveat", cursive;
+
+    --biggest-font-size: clamp(2.25rem, 1.125rem + 5.1429vw, 5.625rem);;
+    --h1-font-size:clamp(1.75rem, 1.4167rem + 1.5238vw, 2.75rem);;
+    --h2-font-size: 32px;
+    --h3-font-size: 30px;
+    --h4-font-size: 24px;
+    --h5-font-size: 22px;
+    --largest-font-size: 21px;
+    --larger-font-size: 20px;
+    --large-font-size: 18px;
+    --normal-font-size: 20px;
+    --small-font-size: 22px;
+    --smaller-font-size: 18px;
+    --tiny-font-size: 16px;
+
+    /**shadow*/
+
+    /* --shadow: 5px 5px rgba(0, 0, 0, 0.1); */
+    --shadow: 0 0 10px rgba(0, 0, 0, 0.1),
+    0 0 25px rgba(0, 0, 0, 0.1),
+    0 0 50px rgba(0, 0, 0, 0.1),
+    0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/**reset*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+main{
+    /* width: 100vw; */
+    overflow: hidden;
+}
+
+section{
+    /* box-shadow: var(--shadow); */
+    border-radius: 15px;
+}
+
+button,
+input,
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    box-shadow: var(--shadow);
+}
+
+body {
+    color: var(--text-color);
+    max-width: 100vw;
+    background: var(--third-gradient);
+}
+/* 
+body.no-scroll{
+    overflow: hidden;
+} */
+
+h1,
+h2,
+h3 {
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+textarea,
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+/**reusable*/
+
+.container {
+    max-width: 1300px;
+    
+    padding-inline: 12px !important;
+    margin-inline: auto;
+    
+}
+
+.container:not(.footer__container,.home__container,.sec6__container,.footeer1__container){
+    background: var(--first-gradient);
+}
+
+
+.btn{
+    /* font-size: var(--tiny-font-size); */
+    font-weight: 700;
+    height: 56px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.btn {
+    padding-inline: 40px;
+    border-radius: 56px;
+    box-shadow: var(--shadow);
+}
+
+
+.section__title,
+.section__subtitle {
+    text-align: center;
+}
+
+.section__title {
+    font-size: var(--h1-font-size);
+    font-family: var(--body-font);
+}
+
+.section__subtitle {
+    color: var(--text-color-alt);
+    font-size: var(--smaller-font-size);
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(1, 16, 1); /* Set the color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(1, 16, 1),rgb(43, 255, 43),rgb(1, 43, 1));
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+    background: #157c09;
+} */
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}

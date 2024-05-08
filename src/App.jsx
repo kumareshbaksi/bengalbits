@@ -32,6 +32,7 @@ const App = () => {
 		</Routes> */}
 		<Home/>
 		<Sec1/>
+		{/* <Work/> */}
 		<Sec2/>
 		<Sec3/>
 		{/* <Sec5/> */}

@@ -16,7 +16,8 @@ const Slide = () => {
     arrows: false
   };
 
-  return (<>
+  return (
+  <section className="container">
   <div className="slide__title section__title">
   Our Proud <span>Accolades</span>
   </div>
@@ -38,7 +39,7 @@ const Slide = () => {
         <img src="https://supportsoft.com.au/web/img/clutch.svg"/>
       </div>
     </Slider>
-    </>
+    </section>
   );
 };
 

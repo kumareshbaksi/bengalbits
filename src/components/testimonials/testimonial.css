@@ -1,12 +1,11 @@
 .test{
   /* background:var(--second-gradient); */
-  padding-block: 60px;
-  
+  padding-block: 20px;
 }
 
-.heading{
+/* .heading{
   margin-top: 50px;
-}
+} */
 
 .test__cont{
   box-shadow: var(--shadow);

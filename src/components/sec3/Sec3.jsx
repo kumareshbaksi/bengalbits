@@ -9,7 +9,7 @@ const Sec3 = () => {
                 <h1>Software Development</h1>
                 <h2 className='section__subtitle'>We Create Powerful Software Solutions That Help Businesses Succeed</h2>
 
-                <div className="btns">
+                <div className="btns btns1">
                 <button className="btn sec3__btn">Get in touch</button>
                 <button className="btn sec3__btn">learn More</button>
                 </div>

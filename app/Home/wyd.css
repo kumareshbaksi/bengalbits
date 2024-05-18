@@ -1,0 +1,27 @@
+.wyd{
+    padding-block: 40px;
+}
+
+.test__cont{
+    background-color: rgb(27, 27, 28); 
+}
+
+.img__wyd{
+    height: 500px;
+    width: 600px;
+    padding: 20px;
+}
+
+.wyd__about{
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(199, 199, 199);
+}
+
+.wyd__btn{
+   padding-bottom: 40px;
+}
+
+.wyd__main{
+    padding: 15px;
+}

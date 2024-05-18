@@ -1,0 +1,32 @@
+.blog{
+    padding-block: 50px;
+}
+
+.img__cont{
+    width: 300px;
+    height: 300px;
+    padding: 40px;
+}
+
+
+.blog__cont{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+}
+
+.blog__head{
+    font-size: var(--h2-font-size);
+}
+
+.card p{
+    text-align: center;
+}
+
+.card h3{
+    padding: 20px;
+}
+
+.img__cont img{
+    padding: 40px;
+}

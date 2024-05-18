@@ -1,0 +1,112 @@
+.sec4{
+    padding-block: 50px;
+}
+
+.sec4__container h1{
+    /* background: var(--second-gradient); */
+    font-size: var(--h1-font-size);
+    margin-top: 20px;
+    padding: 1%;
+}
+
+.sec4__heading h5{
+    margin-top: 35px;
+    font-size: var(--large-font-size);
+}
+
+.sec4__container{
+    box-shadow: var(--shadow);
+  border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec4__content{
+    /* margin-left: -150px; */
+    max-width: 100vw;
+    margin-top: 5%;
+    /* display: flex;
+    justify-content: space-around; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+.content__item{
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute; */
+    width: 280px;
+    height: 450px;
+    border: 3px solid #e9ecef;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.12);
+    transition:background-position 10s ease-out;
+}
+
+
+.content__item:hover {
+    background-position: center 100% !important;
+}
+
+@media screen and (max-width:1245px) {
+    .sec4__content{
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+    /* .content__item:nth-child(4){
+        visibility: hidden !important;
+    } */
+}
+@media screen and (max-width:1212px) {
+    .sec4{
+        padding-bottom: 50px;
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width:993px){
+    .sec4__content{
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+    /* .content__item:nth-child(4){
+        visibility: visible !important;
+    } */
+}
+
+/* @media screen and (max-width:767px){
+    .content__item{
+        width: 320px ;
+        height: 380px ;
+    }
+} */
+@media screen and (max-width:767px){
+    .content__item{
+        width: 220px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width:467px){
+    .sec4__content{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+}
+@media screen and (max-width:430px){
+    .sec4{
+      padding-top: 40%; 
+    }
+}
+@media screen and (max-width:394px){
+    .sec4{
+      padding-top: 250px; 
+    }
+}

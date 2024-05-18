@@ -55,7 +55,7 @@ const page = () => {
                 </div>
                 <div className="text__content">
                     <h1>Softwares, 100% Tailored To your Needs</h1>
-                    <p className='section__subtitle'>Website development is the digital backbone of a company, shaping its online presence and customer interaction. It begins with understanding the company's goals, target audience, and branding identity. Designing a website involves creating a visually appealing layout that is intuitive to navigate. Development encompasses coding, ensuring functionality across various devices and browsers. Content creation is pivotal, conveying the company's message effectively. Integration of features like e-commerce or contact forms enhances user experience. Security measures must be implemented to protect sensitive data and maintain trust. Regular updates and maintenance keep the website running smoothly and up-to-date. Optimization for search engines boosts visibility and traffic. Ultimately, website development is a dynamic process, reflecting the company's growth and evolution in the digital era. 
+                    <p className='section__subtitle'>Website development is the digital backbone of a company, shaping its online presence and customer interaction. It begins with understanding the company&apos;s goals, target audience, and branding identity. Designing a website involves creating a visually appealing layout that is intuitive to navigate. Development encompasses coding, ensuring functionality across various devices and browsers. Content creation is pivotal, conveying the company&apos;s message effectively. Integration of features like e-commerce or contact forms enhances user experience. Security measures must be implemented to protect sensitive data and maintain trust. Regular updates and maintenance keep the website running smoothly and up-to-date. Optimization for search engines boosts visibility and traffic. Ultimately, website development is a dynamic process, reflecting the company&apos;s growth and evolution in the digital era. 
 
                     </p>
                 </div>
@@ -96,7 +96,7 @@ const page = () => {
         <div className="sec4__container container">
         <div className="sec4__heading section__title">
                 <h1>UI/UX design</h1>
-                <h5 className='section__subtitle'>UI/UX design combines creativity and user understanding for great digital experiences. It focuses on easy interfaces, accessibility, and a strong brand look. Testing makes sure it works well. Teamwork between designers, developers, and others makes it even better. We keep making it better with feedback.</h5>
+                <h5 className='section__subtitle'>UI/UX design combines creativity and user understanding for great digital experiences. It focuses on easy interfaces, accessibility, and a strong brand look. Testing makes sure it works well. Teamwork between designers, developers, and others makes it even better. We keep making it better with feedback.</h5>
 
                 <div className="btns btns1">
                

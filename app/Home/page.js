@@ -98,17 +98,17 @@ const Home = () => {
 
             <div className="flex__content">
               <div className="about__content">
-                <b>Here's what we excel at:</b>
+                <b>Here&apos;s what we excel at:</b>
                 <p className="section__subtitle">
-                  At <span className="blue">Bengal Bits</span>, we're all about
+                  At <span className="blue">Bengal Bits</span>, we&apos;re all about
                   building awesome websites and smart IT solutions using the
                   latest AI tech. We love finding new ways to make your online
-                  presence stand out, whether it's designing a sleek website or
+                  presence stand out, whether it&apos;s designing a sleek website or
                   creating clever AI-driven apps. Our team is a bunch of tech
                   enthusiasts who mix creativity with tech skills to give you
-                  top-notch results. We're here to make your digital journey
-                  smooth and successful, from start to finish. Let's team up and
-                  take your business to the next level with the power of AI!
+                  top-notch results. We&apos;re here to make your digital journey
+                  smooth and successful, from start to finish. Let&apos;s team up and
+                  take your business to the next level with the power of AI!
                 </p>
               </div>
 
@@ -156,7 +156,7 @@ const Home = () => {
               <Image className="img__wyd" src={Web} alt="" />
             <h2 className="section__title"> Web Development</h2>
               <p className="section__subtitle wyd__about">
-                Website development shapes a company's online presence, starting
+                Website development shapes a company&apos;s online presence, starting
                 with goals, audience, and branding. Designing an intuitive
                 layout, coding for functionality across devices...
               </p>
@@ -273,7 +273,7 @@ const Home = () => {
             What Our Clients Say About Us
           </h1>
           <h3 className="section__subtitle">
-            We are all about customer service but don’t trust our words trust
+            We are all about customer service but don&apos;t trust our words trust
             what our clients say about us
           </h3>
 
@@ -515,7 +515,7 @@ const Home = () => {
           <div className="form__contact">
             <div className="section__title form__title">
               <p>
-                Fill Out The Form And We'll Be In Touch As Soon As Possible.
+                Fill Out The Form And We&apos;ll Be In Touch As Soon As Possible.
               </p>
             </div>
             <form action="" onSubmit={handleSubmit(onSubmit)}>

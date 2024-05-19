@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer1.css";
-import logo1 from '@/app/assets/logo1.jpg'
+import logo1 from '@/app/assets/Frame 25.png'
 import { MdOutlineMail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import Image from "next/image";

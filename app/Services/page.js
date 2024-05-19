@@ -36,7 +36,7 @@ const page = () => {
         </div>
       </div>
 
-    <section className="sec3" id='web'>
+    <section className="sec3 container" id='web'>
         <div className="sec3__container container">
             <div className="sec3__heading section__title">
                 <h1>Website Development</h1>
@@ -64,8 +64,8 @@ const page = () => {
     </section>
 
 
-         <section className="sec2" id='app'>
-        <div className="container sec2__container">
+         <section className="sec2 container" id='app'>
+        <div className="sec2__container container">
             <div className="text">
                 <h1 className='section__title'>App Development</h1>
                 <p className='section__subtitle'>
@@ -92,7 +92,7 @@ const page = () => {
     </section>
 
 
-    <section className="sec4" id='ui'>
+    <section className="sec4 container" id='ui'>
         <div className="sec4__container container">
         <div className="sec4__heading section__title">
                 <h1>UI/UX design</h1>

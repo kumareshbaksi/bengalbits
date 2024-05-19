@@ -31,6 +31,33 @@ const Home = () => {
     autoplay: true, // Enable autoplay
     autoplaySpeed: 3000, // Set autoplay interval in milliseconds (e.g., 3000 ms = 3 seconds)
     arrows: false,
+    responsive: [
+      {
+          breakpoint: 1024, // Width for medium devices
+          settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+          }
+      },
+      {
+          breakpoint: 768, // Width for small devices
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+          }
+      },
+      {
+          breakpoint: 480, // Width for very small devices
+          settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+          }
+      }
+  ]
   };
   const settings = {
     dots: true,
@@ -41,6 +68,33 @@ const Home = () => {
     autoplay: true, // Enable autoplay
     autoplaySpeed: 3000, // Set autoplay interval in milliseconds (e.g., 3000 ms = 3 seconds)
     arrows: false,
+    responsive: [
+      {
+          breakpoint: 1024, // Width for medium devices
+          settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+          }
+      },
+      {
+          breakpoint: 768, // Width for small devices
+          settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+          }
+      },
+      {
+          breakpoint: 480, // Width for very small devices
+          settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+          }
+      }
+  ]
   };
 
   const {
@@ -90,7 +144,7 @@ const Home = () => {
       </div>
 
       <section className="work work__container container">
-        <div className="container main__work">
+        <div className="main__work container">
           <div className="content-1">
             <div className="section__heading">
               <h2 className="section__title">About Us</h2>
@@ -146,7 +200,7 @@ const Home = () => {
       </section>
 
       <section className="wyd container">
-        <div className="container test__cont">
+        <div className="test__cont container">
           <h1 className="section__heading section__title">What We Do</h1>
 
           <Slider className='slide container' {...settings2}>
@@ -198,7 +252,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="container sec1__container " id="about">
+      <section className="sec1__container  container" id="about">
         <div className="main__work container">
           <div className="section__heading">
             <h2 className="section__title">
@@ -268,7 +322,7 @@ const Home = () => {
       </section>
 
       <section className="test container">
-        <div className="container test__cont">
+        <div className="test__cont container">
           <h1 className="heading section__title">
             What Our Clients Say About Us
           </h1>
@@ -367,7 +421,7 @@ const Home = () => {
       </section>
 
       <section className="sec6 container">
-        <div className="container sec6__container">
+        <div className="sec6__container container">
           <div className="col-lg-5 col-md-12 sec6__img__content">
             <div className="position-relative">
               {" "}

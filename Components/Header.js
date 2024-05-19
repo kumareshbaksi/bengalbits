@@ -1,7 +1,7 @@
 "use client"
 import React,{useState,useEffect} from 'react';
 import './Header.css'; 
-import logo1 from '@/app/assets/logo1.jpg'
+import logo1 from '@/app/assets/Frame 25.png'
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Link from 'next/link'
 import { NavDropdown } from 'react-bootstrap'
@@ -51,7 +51,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <nav className={`${scrollNav? 'bg-light animate__header': 'bg-transparent'} 
+    <nav className={`${scrollNav? 'bg-dark animate__header': 'bg-transparent'} 
    navbar navbar-expand-lg fixed-top`}> 
   <div className="container-fluid">
         <a className="navbar-brand" href="#home">
@@ -144,7 +144,7 @@ useEffect(() => {
               <Link className="nav-link items" style={{color:`${scrollNav? '':  'rgb(255, 237, 228)'}`}}  href="/Blog">Blogs</Link>
             </li>
             <li className="nav-item"> 
-              <Link className="nav-link items" style={{color:`${scrollNav? '':  'rgb(255, 237, 228)'}`}}  href="/Contact">Contact</Link>
+              <Link className="nav-link items" style={{color:`${scrollNav? '':  'rgb(255, 237, 228)'}`}}  href="/Contact-us">Contact</Link>
             </li>
           </ul>
         </div>

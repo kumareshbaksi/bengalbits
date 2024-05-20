@@ -1,0 +1,40 @@
+.contact__cont{
+    background-color: rgb(1, 1, 1);
+    padding:60px;
+    min-width: 100%;
+    border-radius: 0px;
+}
+
+
+.logo__cont{
+    height: 100px;
+    width: 100px;
+}
+
+.cont__subt{
+    color: white;
+}
+
+.about__cont{
+    padding: 50px;
+}
+
+
+.form__cont{
+    background-color: black;
+    box-shadow: 0 0 10px #0ef,
+    0 0 25px #0ef, 0 0 35px #0ef, 0 0 50px #0ef ;
+}
+
+.cont__logo{
+    animation: rotate1 3s linear infinite;
+}
+
+@keyframes rotate1 {
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}

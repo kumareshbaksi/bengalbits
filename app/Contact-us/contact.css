@@ -1,5 +1,5 @@
 .contact__cont{
-    background-color: rgb(1, 1, 1);
+    background: linear-gradient(grey,rgb(53, 53, 53),black);
     padding:60px;
     min-width: 100%;
     border-radius: 0px;
@@ -23,18 +23,10 @@
 .form__cont{
     background-color: black;
     box-shadow: 0 0 10px #0ef,
-    0 0 25px #0ef, 0 0 35px #0ef, 0 0 50px #0ef ;
+    0 0 25px #0ef, 0 0 35px #0ef;
 }
 
 .cont__logo{
     animation: rotate1 3s linear infinite;
 }
 
-@keyframes rotate1 {
-    0%{
-        transform: perspective(1000px) rotateY(0deg);
-    }
-    100%{
-        transform: perspective(1000px) rotateY(360deg);
-    }
-}

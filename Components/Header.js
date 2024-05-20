@@ -63,7 +63,9 @@ useEffect(() => {
         <button className="navbar-toggler" type="button"  onClick={toggleNavbar} style={{backgroundColor:`${scrollNav? 'white':  'rgb(225, 186, 186)'}`}}>
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`} id="navbarSupportedContent">
+        <div className={`collapse navbar-collapse  ${isCollapsed ? '' : 'show'}`} id="navbarSupportedContent">
+        
+  <div className="mx-auto">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               {/* <a className="nav-link items" style={{color:`${scrollNav? '':  'rgb(255, 237, 228)'}`}} href="#home" >Home</a> */}
@@ -146,7 +148,11 @@ useEffect(() => {
             <li className="nav-item"> 
               <Link className="nav-link items" style={{color:`${scrollNav? '':  'rgb(255, 237, 228)'}`}}  href="/Contact-us">Contact</Link>
             </li>
+
           </ul>
+          </div>
+          <button className='btn btn__header'><span></span>
+          <span></span><span></span><span></span>Request a quote</button>
         </div>
       </div>
      

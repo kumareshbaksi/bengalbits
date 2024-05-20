@@ -60,6 +60,66 @@
 .navbar-nav .nav-link:hover{
     color: white;
 }
+
+.btn__header{
+    box-shadow:0 2px 25px #FFE922;
+    color: white !important;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 0.2em;
+    font-weight: 800 !important;
+}
+.btn__header::before{
+    position: absolute;
+    width: 50%;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    content: '';
+    background: rgb(142 255 240 / 10%);
+}
+
+.btn__header span:nth-child(1){
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #002b9d, #34ffea);
+    animation: animate_head1 2s linear infinite;
+}
+
+.btn__header span:nth-child(2){
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to bottom, #002b9d, #34ffea);
+    animation: animate_head2 2s linear infinite;
+    animation-delay: 1s;
+}
+.btn__header span:nth-child(3){
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left,#002b9d, #34ffea);
+    animation: animate_head3 2s linear infinite ;
+}
+.btn__header span:nth-child(4){
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top,#002b9d, #34ffea);
+    animation: animate_head4 2s linear infinite;
+    animation-delay: 1s;
+}
+
+
 @keyframes header_animate {
     0%{
         transform: translateY(-100px);
@@ -67,6 +127,42 @@
 
     100%{
         transform: translateY(0);
+    }
+}
+@keyframes animate_head1 {
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(100%);
+    }
+}
+@keyframes animate_head2 {
+    0%{
+        transform: translateY(-100%);
+    }
+
+    100%{
+        transform: translateY(100%);
+    }
+}
+@keyframes animate_head3 {
+    0%{
+        transform: translateX(100%);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+}
+@keyframes animate_head4 {
+    0%{
+        transform: translateY(100%);
+    }
+
+    100%{
+        transform: translateY(-100%);
     }
 }
 

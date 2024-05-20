@@ -60,7 +60,7 @@ useEffect(() => {
             <Image src={logo1} alt="" className='icon__home' style={{width:"auto"}}/>
            </span>Bengal Bits</span>
            </a>
-        <button className="navbar-toggler" type="button"  onClick={toggleNavbar} style={{backgroundColor:`${scrollNav? '':  'rgb(225, 186, 186)'}`}}>
+        <button className="navbar-toggler" type="button"  onClick={toggleNavbar} style={{backgroundColor:`${scrollNav? 'white':  'rgb(225, 186, 186)'}`}}>
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`} id="navbarSupportedContent">

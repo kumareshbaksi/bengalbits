@@ -210,7 +210,7 @@ const Home = () => {
 
           
           <div className="wyd__content">
-              <Image className={web} alt="" />
+              <Image className='img__wyd' src={web} alt="" />
             <h2 className="section__title"> Web Development</h2>
               <p className="section__subtitle wyd__about">
                 Website development shapes a company&apos;s online presence, starting
@@ -225,7 +225,7 @@ const Home = () => {
             </div>
           </div>
           <div className="wyd__content">
-              <Image className={web} alt="" />
+              <Image className='img__wyd' src={web} alt="" />
               <h2 className="section__title"> App Development</h2>
               <p className="section__subtitle wyd__about">
               App development blends creativity and technical skill, involving idea refinement, intuitive design, coding, testing, and optimization. Compatibility, security, and user feedback...
@@ -239,7 +239,7 @@ const Home = () => {
             </div>
           </div>
           <div className="wyd__content">
-              <Image className={web} alt="" />
+              <Image className='img__wyd' src={web} alt="" />
               <h2 className="section__title"> Ui/Ux Design</h2>
               <p className="section__subtitle wyd__about">
               UI/UX design combines creativity and user understanding for great digital experiences. It focuses on easy interfaces, accessibility, and a strong brand look. Testing makes sure it works well...
@@ -619,7 +619,7 @@ const Home = () => {
                   />
                 )}
               />
-              <input type="submit" className="submit__form" />
+              <input type="submit" className="submit__form"/>
             </form>
           </div>
         </div>

@@ -52,7 +52,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <nav className={`${scrollNav? 'bg-dark animate__header': 'bg-transparent'} 
+    <nav className={`${scrollNav? 'bg-black animate__header': 'bg-transparent'} 
    navbar navbar-expand-lg fixed-top`}> 
   <div className="container-fluid">
         <a className="navbar-brand" href="#home">
@@ -72,12 +72,12 @@ useEffect(() => {
               {/* <a className="nav-link items" style={{color:`${scrollNav? '':  'rgb(255, 237, 228)'}`}} href="#home" >Home</a> */}
               <Link className="nav-link items" style={{color:`${scrollNav? '':  'rgb(255, 237, 228)'}`}}  href="/Home">Home</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
 
               <Link className="nav-link items" style={{color:`${scrollNav? '':  'rgb(255, 237, 228)'}`}} 
                href="/Products">Products</Link>
 
-            </li>
+            </li> */}
             
             <li className="nav-item">
               <NavDropdown title="Services" id="basic-nav-dropdown" style={{color:`${scrollNav? '':  'rgb(255, 237, 228)'}`}}  show={showDropdown}
@@ -143,9 +143,9 @@ useEffect(() => {
             </NavDropdown>
             </li>
 
-            <li className="nav-item"> 
+            {/* <li className="nav-item"> 
               <Link className="nav-link items" style={{color:`${scrollNav? '':  'rgb(255, 237, 228)'}`}}  href="/Blog">Blogs</Link>
-            </li>
+            </li> */}
             <li className="nav-item"> 
               <Link className="nav-link items" style={{color:`${scrollNav? '':  'rgb(255, 237, 228)'}`}}  href="/Contact-us">Contact</Link>
             </li>

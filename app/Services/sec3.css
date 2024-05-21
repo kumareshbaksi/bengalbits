@@ -1,5 +1,5 @@
 .sec3{
-    padding-block: 50px;
+    padding-block: 30px;
 }
 
 .sec3__container {
@@ -67,6 +67,11 @@
 }
 
 @media screen and (max-width: 1200px) {
+
+    /* .sec3{
+        padding-block:50px;
+    } */
+
     .sec3__content{
         flex-direction: column;
     }

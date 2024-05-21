@@ -1,9 +1,9 @@
 .sec2{
     /* background-color: rgb(14, 14, 54); */
     /* color: aliceblue; */
-    position: relative;
+    /* position: relative; */
     /* overflow: hidden; */
-    padding-block: 50px;
+    padding-block: 30px;
 }
 
 .sec2__container{
@@ -74,10 +74,9 @@
         flex-direction: column;
     } */
 
-    .sec2{
-        max-height: 50vh;
-        
-    }
+    /* .sec2{
+        height: 80vh;
+    } */
 
     .text{
         min-width: 100%;
@@ -87,18 +86,3 @@
     }
 }
 
-@media screen and (max-width: 430px){
-    .sec2{
-        max-height: 55vh;
-    }
-}
-@media screen and (max-width: 390px){
-    .sec2{
-        max-height: 60vh;
-    }
-}
-@media screen and (max-width: 358px){
-    .sec2{
-        max-height: 65vh;
-    }
-}

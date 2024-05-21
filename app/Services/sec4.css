@@ -1,5 +1,5 @@
 .sec4{
-    padding-block: 50px;
+    padding-block: 30px;
 }
 
 .sec4__container h1{
@@ -61,12 +61,6 @@
     /* .content__item:nth-child(4){
         visibility: hidden !important;
     } */
-}
-@media screen and (max-width:1212px) {
-    .sec4{
-        padding-bottom: 50px;
-        padding-top: 200px;
-    }
 }
 
 @media screen and (max-width:993px){

@@ -324,7 +324,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="test container">
+      {/* <section className="test container">
         <div className="test__cont container">
           <h1 className="heading section__title">
             What Our Clients Say About Us
@@ -421,7 +421,7 @@ const Home = () => {
             </div>
           </Slider>
         </div>
-      </section>
+      </section> */}
 
       <section className="sec6 container">
         <div className="sec6__container container">

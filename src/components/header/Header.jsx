@@ -5,9 +5,9 @@ import logo from '../../assets/logo1.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import { Link } from 'react-router-dom';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Servicepage from '../servicepage/Servicepage'
-import Servicepage2 from '../servicepage/Servicepage2'
-import { createBrowserRouter,RouterProvider } from 'react-router-dom'
+// import Servicepage from '../servicepage/Servicepage'
+// import Servicepage2 from '../servicepage/Servicepage2'
+// import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 
 function NavBar() {
 

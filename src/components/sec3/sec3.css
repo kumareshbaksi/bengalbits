@@ -39,6 +39,7 @@
 
 .img__content{
     max-width: 50%;
+    padding-bottom: 1%;
 }
 
 .text__content h1{
@@ -53,6 +54,11 @@
 
 .sec3__heading{
     padding: 2%;
+}
+
+.sec3__btn:hover{
+    color: white;
+    background-color: blue;
 }
 
 @media screen and (max-width: 1200px) {

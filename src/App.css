@@ -164,9 +164,6 @@ img {
     display: grid;
     place-items: center;
     position: relative;
-}
-
-.btn {
     padding-inline: 40px;
     border-radius: 56px;
     box-shadow: var(--shadow);
@@ -206,6 +203,7 @@ img {
 /* ::-webkit-scrollbar-thumb:hover {
     background: #157c09;
 } */
+
 
 @keyframes slideRight {
     0%{

@@ -17,10 +17,6 @@ const Sec4 = () => {
              
             </div>
 
-
-
-
-
         <div className="sec4__content">
                 <div className="content__item" style={{backgroundImage:'Url(https://supportsoft.com.au/uploads/project_images/0612010288ef9b903279172358fc004f.jpg)'}}>
                   
@@ -35,10 +31,7 @@ const Sec4 = () => {
                
                 </div>
         </div>
-        
-
-
-        </div>
+               </div>
        
 
 

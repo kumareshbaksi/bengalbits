@@ -1,13 +1,18 @@
 import React from 'react'
 import './home.css'
+import image from '../../assets/WhatsApp Image 2024-05-11 at 09.47.43_819ef5a4.jpg'
 
 const Home = () => {
   return (
         <div className="background-video home" id='home'>
-          <video autoPlay loop muted playsInline>
+          {/* <video autoPlay loop muted playsInline>
             <source src="https://supportsoft.com.au/web/video/banner-bg.mp4" type="video/mp4" />
             Your browser does not support the video tag.
-          </video>
+          </video> */}
+          <div className="image__item">
+          <img src={image} alt="" className='image'/>
+          </div>
+          
           <div className="video-overlay"></div>
           <div className="home__container container">
                                 <h1>APPLICATION DEVELOPMENT AND SOFTWARE CONSULTING FOR YOUR DIGITAL SUCCESS

@@ -1,8 +1,9 @@
+"use client"
 import React from "react";
 import "./footer1.css";
-import logo1 from '@/app/assets/Frame 25.png'
 import { MdOutlineMail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import Logo from './Frame 25.png'
 import Image from "next/image";
 
 const Footer1 = () => {
@@ -15,7 +16,7 @@ const Footer1 = () => {
               {" "}
               <span className="nav__head">
                 <span className="logo__home">
-                  <Image src={logo1} alt="" className="icon__home" />
+                  <Image src={Logo} alt="" className="icon__home"/>
                 </span>
                 Bengal Bits
               </span>

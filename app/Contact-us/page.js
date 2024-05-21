@@ -3,14 +3,15 @@ import React from 'react'
 import "../Home/contact.css"
 import './contact.css'
 import '../Home/home.css'
-import Logo from '@/app/assets/Frame 25.png'
-import image from '@/app/assets/image.jpg'
+// import Logo from '@/app/assets/Frame 25.png'
+// import image from '@/app/assets/image.jpg'
 import Image from 'next/image'
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdMessage } from "react-icons/md";
 import { Controller } from "react-hook-form";
 import { useForm } from "react-hook-form";
-
+import image from "./image.jpg"
+import Logo from "./Frame 25.png"
 
 const page = () => {
   const {
@@ -30,7 +31,8 @@ const page = () => {
             Your browser does not support the video tag.
           </video> */}
         <div className="image__item">
-          <Image src={image} alt="" className="image" />
+          <Image src=
+          {image} alt="" className="image"/>
         </div>
 
         <div className="video-overlay"></div>

@@ -1,11 +1,12 @@
 "use client"
 import React,{useState,useEffect} from 'react';
 import './Header.css'; 
-import logo1 from '@/app/assets/Frame 25.png'
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Link from 'next/link'
 import { NavDropdown } from 'react-bootstrap'
 import Image from 'next/image';
+import Logo from './Frame 25.png'
+
 
 function NavBar() {
 
@@ -57,7 +58,7 @@ useEffect(() => {
         <a className="navbar-brand" href="#home">
           
            <span className="nav__head"><span className="logo__home">
-            <Image src={logo1} alt="" className='icon__home' style={{width:"auto"}}/>
+            <Image src={Logo} alt="" className='icon__home'/>
            </span>Bengal Bits</span>
            </a>
         <button className="navbar-toggler" type="button"  onClick={toggleNavbar} style={{backgroundColor:`${scrollNav? 'white':  'rgb(225, 186, 186)'}`}}>

@@ -1,7 +1,8 @@
+"use client"
 import React from 'react'
-import Web from '@/app/assets/web.jpg'
-import App from '@/app/assets/app.jpg'
-import Ser from '@/app/assets/ser.jpg'
+import Web from './web.jpg'
+import App from './app.jpg'
+import Ser from './ser.jpg'
 import './sec2.css'
 import './sec3.css'
 import './sec4.css'

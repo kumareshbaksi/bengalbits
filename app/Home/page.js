@@ -2,7 +2,6 @@
 import React from "react";
 import "./home.css";
 import Image from "next/image";
-import image from "@/app/assets/image.jpg";
 import "./sec1.css";
 import "./work.css";
 import "./sec6.css";
@@ -14,12 +13,13 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdMessage } from "react-icons/md";
 import { Controller } from "react-hook-form";
 import { useForm } from "react-hook-form";
-import Web from "@/app/assets/web.jpg"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import image1 from "@/app/assets/image1.jpg";
 import Link from "next/link";
+import image from "./image.jpg"
+import image1 from "./image1.jpg"
+import web from "./web.jpg"
 
 const Home = () => {
   const settings2 = {
@@ -184,13 +184,16 @@ const Home = () => {
                     <Image src={image} alt="" className="work__image" />
                   </span>
                   <span style={{ "--i": 6 }}>
-                    <Image src={image} alt="" className="work__image" />
+                  <Image src={image} alt="" className="work__image" />
+
                   </span>
                   <span style={{ "--i": 7 }}>
-                    <Image src={image} alt="" className="work__image" />
+                  <Image src={image} alt="" className="work__image" />
+
                   </span>
                   <span style={{ "--i": 8 }}>
-                    <Image src={image} alt="" className="work__image" />
+                  <Image src={image} alt="" className="work__image" />
+
                   </span>
                 </div>
               </div>
@@ -207,7 +210,7 @@ const Home = () => {
 
           
           <div className="wyd__content">
-              <Image className="img__wyd" src={Web} alt="" />
+              <Image className={web} alt="" />
             <h2 className="section__title"> Web Development</h2>
               <p className="section__subtitle wyd__about">
                 Website development shapes a company&apos;s online presence, starting
@@ -222,7 +225,7 @@ const Home = () => {
             </div>
           </div>
           <div className="wyd__content">
-              <Image className="img__wyd" src={Web} alt="" />
+              <Image className={web} alt="" />
               <h2 className="section__title"> App Development</h2>
               <p className="section__subtitle wyd__about">
               App development blends creativity and technical skill, involving idea refinement, intuitive design, coding, testing, and optimization. Compatibility, security, and user feedback...
@@ -236,7 +239,7 @@ const Home = () => {
             </div>
           </div>
           <div className="wyd__content">
-              <Image className="img__wyd" src={Web} alt="" />
+              <Image className={web} alt="" />
               <h2 className="section__title"> Ui/Ux Design</h2>
               <p className="section__subtitle wyd__about">
               UI/UX design combines creativity and user understanding for great digital experiences. It focuses on easy interfaces, accessibility, and a strong brand look. Testing makes sure it works well...
@@ -313,7 +316,7 @@ const Home = () => {
                 <img
                   src="https://supportsoft.com.au/web/img/feature-img4.jpg"
                   alt="feature image"
-                  className="img-fluid rounded-custom"
+                  className="img-fluid rounded-custom" 
                 />
               </div>
             </div>

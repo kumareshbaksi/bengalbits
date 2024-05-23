@@ -10,7 +10,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdMessage } from "react-icons/md";
 import { Controller } from "react-hook-form";
 import { useForm } from "react-hook-form";
-import image from "./image.jpg"
+import image from "./image__cont.jpg"
 import Logo from "./Frame 25.png"
 
 const page = () => {
@@ -63,6 +63,7 @@ const page = () => {
 
     <section className="contact" id="contact">
         <div className="container contact__container contact__cont">
+          
           <div className="about__contact about__cont">
             <div className="section__title">
               <div className="cont__logo"><Image src={Logo} alt="logo" className='logo__cont'/></div>
@@ -99,7 +100,7 @@ const page = () => {
           <div className="form__contact form__cont">
             <div className="section__title form__title">
               <p>
-                Fill Out The Form And We&apos;ll Be In Touch As Soon As Possible.
+                Fill Out The Form And Get In Touch With Us
               </p>
             </div>
             <form action="" onSubmit={handleSubmit(onSubmit)}>

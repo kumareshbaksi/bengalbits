@@ -94,13 +94,13 @@
        align-items: center;
     }
 }
-@media screen and (max-width:430px){
+/* @media screen and (max-width:430px){
     .sec4{
       padding-top: 40%; 
     }
-}
-@media screen and (max-width:394px){
+} */
+/* @media screen and (max-width:394px){
     .sec4{
       padding-top: 250px; 
     }
-}
+} */

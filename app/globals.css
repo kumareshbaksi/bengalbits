@@ -148,9 +148,7 @@ img {
     /* min-width: 100vw; */
     padding-inline: 12px !important;
     margin-inline: auto;
-    
 }
-
 
 .btn{
     /* font-size: var(--tiny-font-size); */
@@ -254,6 +252,18 @@ img {
     background: linear-gradient(to top,#002b9d, #34ffea);
     animation: animate_head4 2s linear infinite;
     animation-delay: 1s;
+}
+
+.pro__btn{
+    margin-left: 40%;
+    border: 2px solid #063252 !important;
+    box-shadow: 10px 2px 20px 2px #063252;
+}
+.pro__btn:hover{
+    background-color: #063252 !important;
+    color: white !important;
+    border: 2px solid red !important;
+    box-shadow: 10px 20px 20px 10px #095f9c;
 }
 
 @keyframes slideRight {

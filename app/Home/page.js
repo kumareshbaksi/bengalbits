@@ -121,25 +121,18 @@ const Home = () => {
         <div className="video-overlay"></div>
         <div className="home__container container">
           <h1>
-            APPLICATION DEVELOPMENT AND SOFTWARE CONSULTING FOR YOUR DIGITAL
-            SUCCESS
+          Build your dream application with us
           </h1>
           <p>
-            Since 2013. We have been providing innovative, result-driven, and
-            versatile digital solutions to assist businesses in connecting with
-            their customers and scaling new heights.
+          Transform your vision into reality with our expert app development team. Craft the perfect app tailored to your needs with our dedicated developers. Let's bring your ideas to life together.
           </p>
-          <div
-            className="action-btns text-center pt-4"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          
             <div className="home__btn">
-              <button className="btn text-cs" href="">
+              <Link className="btn text-cs" href='#contact'>
                 Contact Us
-              </button>
+              </Link>
             </div>
-          </div>
+         
         </div>
       </div>
 

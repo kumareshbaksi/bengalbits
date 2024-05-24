@@ -3,11 +3,16 @@ import React from 'react'
 import Web from './web.jpg'
 import App from './app.jpg'
 import Ser from './ser.jpg'
+import ux1 from '@/public/assets/ux1.jpg'
+import ux2 from '@/public/assets/ux2.jpg'
+import ux3 from '@/public/assets/ux3.jpg'
+import ux4 from '@/public/assets/ux4.jpg'
 import './sec2.css'
 import './sec3.css'
 import './sec4.css'
 import Image from 'next/image'
 import "../Home/home.css"
+
 
 const page = () => {
   return (
@@ -25,13 +30,10 @@ const page = () => {
         <div className="video-overlay"></div>
         <div className="home__container container">
           <h1>
-            APPLICATION DEVELOPMENT AND SOFTWARE CONSULTING FOR YOUR DIGITAL
-            SUCCESS
+          Building Better Futures with Our Services
           </h1>
           <p>
-            Since 2013. We have been providing innovative, result-driven, and
-            versatile digital solutions to assist businesses in connecting with
-            their customers and scaling new heights.
+          Explore our comprehensive web development services designed to meet your unique needs. From custom design to robust functionality, we're here to support your vision and ensure your online success.
           </p>
           
         </div>
@@ -83,9 +85,9 @@ const page = () => {
 
         <div className="side-bar">
                             <div className="row img__sec">
-                                     <span className="span1" aria-hidden="true"><Image src={App} alt="feature image" className="img-fluid rounded-custom"/></span> 
-                                     <span className="span1" aria-hidden="true"><Image src={App} alt="feature image" className="img-fluid rounded-custom"/></span> 
-                                     <span className="span1" aria-hidden="true"><Image src={App} alt="feature image" className="img-fluid rounded-custom"/></span> 
+                                     <span className="span1" aria-hidden="true"><Image src={ux3} alt="feature image" className="img-fluid rounded-custom"/></span> 
+                                     <span className="span1" aria-hidden="true"><Image src={ux3} alt="feature image" className="img-fluid rounded-custom"/></span> 
+                                     <span className="span1" aria-hidden="true"><Image src={ux3} alt="feature image" className="img-fluid rounded-custom"/></span> 
                                  
                             </div>
             </div>
@@ -108,18 +110,23 @@ const page = () => {
             </div>
 
         <div className="sec4__content">
-                <div className="content__item container" style={{backgroundImage:'Url(https://supportsoft.com.au/uploads/project_images/0612010288ef9b903279172358fc004f.jpg)'}}>
-                  
+                <div className="content__item container">
                 </div>
-                <div className="content__item container"  style={{backgroundImage:'url(https://supportsoft.com.au/uploads/project_images/638c383dfb959bbe5d4df77eaa243c14.jpg)'}}>
-               
+                <div className="content__item container">
+                </div>
+                <div className="content__item container">
+                </div>
+                <div className="content__item container">
+                </div>
+
+                {/* <div className="content__item container"  style={{backgroundImage:'url(https://supportsoft.com.au/uploads/project_images/638c383dfb959bbe5d4df77eaa243c14.jpg)'}}>
                 </div>
                 <div className="content__item container"  style={{backgroundImage:'Url(https://supportsoft.com.au/uploads/project_images/4b86b45df99fd266eac9ca452627a7e9.jpg)'}}>
                
                 </div>
                 <div className="content__item container" style={{backgroundImage:'url(https://supportsoft.com.au/uploads/project_images/130eef601e5be6b34bc49191464a4892.jpg)'}}>
                
-                </div>
+                </div> */}
         </div>
                </div>
        

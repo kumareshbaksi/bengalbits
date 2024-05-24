@@ -34,7 +34,22 @@
     padding-left: 2%;
 }
 
+.content__item:first-child{
+    background-image: url('https://supportsoft.com.au/uploads/project_images/4b86b45df99fd266eac9ca452627a7e9.jpg');
+}
+.content__item:nth-child(2){
+    background-image: url('./ux1.jpg');
+}
+.content__item:nth-child(3){
+    background-image: url('https://supportsoft.com.au/uploads/project_images/4b86b45df99fd266eac9ca452627a7e9.jpg');
+}
+.content__item:nth-child(4){
+    background-image: url('https://supportsoft.com.au/uploads/project_images/4b86b45df99fd266eac9ca452627a7e9.jpg');
+}
+
+
 .content__item{
+    background-image: url('https://supportsoft.com.au/uploads/project_images/4b86b45df99fd266eac9ca452627a7e9.jpg');
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;

@@ -197,7 +197,7 @@ function NavBar() {
                 <Link
                   className="nav-link items"
                   style={{ color: `${scrollNav ? "" : "rgb(255, 237, 228)"}` }}
-                  href="/Product-items"
+                  href="/Products"
                 >
                   Products
                 </Link>

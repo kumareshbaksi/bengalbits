@@ -50,15 +50,13 @@
 
 
 .row span {
+    height: 100%;
     animation: 3s linear infinite rotateY;
     display: inline-flex;
 }
 .side-bar span img {
-    margin-top: 2%;
-    height: 1100px;
+    height: 800px;
     width: 420px;
-    
-    /* margin-top: -51%; */
 }
 
 

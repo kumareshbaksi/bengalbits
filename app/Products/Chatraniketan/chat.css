@@ -1,0 +1,78 @@
+.product1__content{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.pro1__head{
+    padding-block: 50px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    color: #063252;
+}
+
+.pro__text1{
+    background-color: rgb(176, 248, 255);
+    margin-top: 20px;
+    padding-block: 60px;
+    border-left: 3px solid rgb(37, 37, 210);
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 25px 5px blue;
+}
+
+.pro__sub{
+    text-align: center;
+    padding-left: 30px;
+}
+
+.pro1__btn{
+    margin-left: 45%;
+}
+
+.pro2__title{
+    color: #063252;
+}
+
+.img__pro1{
+    /* max-width: 70%; */
+    align-self: center;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-bottom: 2%;
+    column-gap: 30px;
+}
+
+.img__item:first-child{
+    background-image: url('../../../public/assets/chat1.jpg');
+}
+.img__item:nth-child(2){
+    background-image: url('../../../public/assets/chat2.jpg');
+}
+.img__item:nth-child(3){
+    background-image: url('../../../public/assets/chat3.jpg');
+}
+
+.img__item{
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 450px;
+    border: 3px solid #5812a3;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px 2px rgb(18, 46, 87);
+    transition:background-position 3s ease-out;
+}
+
+.img__item:hover {
+    background-position: center 100% !important;
+}
+
+@media screen and (max-width:963px) {
+    .img__pro1{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
+    }
+}

@@ -21,8 +21,8 @@ p{
 .main__work{
     /* background-color: var(--bg-color-alt); */
     /* background: var(--first-gradient); */ 
-    box-shadow: var(--shadow);
-    border-radius: 15px;
+    box-shadow: 5px 10px 25px 5px blue;
+    border-right: 5px solid blue;
     border-radius: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -59,13 +59,14 @@ p{
 }
 
 .content__img{
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     overflow: hidden;
-    padding: 5%;
+    padding-bottom: 6%;
 }
 
 .slider__anim{
@@ -123,6 +124,13 @@ p{
         transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
         -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004);
     }
+
+    .work__image{
+        top: 7%;
+        width: 60%;
+        height: 80%;
+    }
+
 }
 @media screen and (max-width:990px) {
     .slider__anim span{
@@ -133,11 +141,9 @@ p{
 @media screen and (max-width:490px) {
     .slider__anim span{
         transform: rotateY(calc(var(--i) * 45deg)) translateZ(220px);
-        -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004);
     }
-    .work__image{
-        height: 50%;
-        height: 70%;
-        border-radius: 100%;
+    .slider__anim{
+        transform-style: unset;
+        animation: rotate1 10s linear infinite;
     }
 }

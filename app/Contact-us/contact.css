@@ -34,3 +34,17 @@
 .submit__form{
     color: antiquewhite;
 }
+
+.about1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon__contact{
+    min-width: 20%;
+}
+
+.about__icon__contact{
+    padding: 10px;
+}
+

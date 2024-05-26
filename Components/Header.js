@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useState, useEffect } from "react";
 import "./Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -12,6 +12,7 @@ function NavBar() {
   const [scrollNav, setScrollNav] = useState(false);
   const [isCollapsed, setIsCollapsed] = useState(true);
   const [screenWidth, setScreenWidth] = useState(0);
+  const [activeNavItem, setActiveNavItem] = useState(""); // State to track the active nav-item
 
   const changeNav = () => {
     if (window.scrollY >= 80) {
@@ -29,7 +30,8 @@ function NavBar() {
     setIsCollapsed(!isCollapsed);
   };
 
-  const handleNavLinkClick = () => {
+  const handleNavLinkClick = (item) => {
+    setActiveNavItem(item);
     if (!isCollapsed) {
       setIsCollapsed(true);
     }
@@ -43,30 +45,24 @@ function NavBar() {
 
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
+
   }, []);
 
-  useEffect(() => {
-    const navLinks = document.querySelectorAll(".nav-link");
-    navLinks.forEach((link) => {
-      link.addEventListener("click", handleNavLinkClick);
-    });
-  }, [isCollapsed]);
+  // const handleMouseEnter = () => {
+  //   if (screenWidth >= 992) {
+  //     setShowDropdown(true);
+  //   }
+  // };
 
-  const handleMouseEnter = () => {
-    if (screenWidth >= 992) {
-      setShowDropdown(true);
-    }
-  };
+  // const handleMouseLeave = () => {
+  //   if (screenWidth >= 992) {
+  //     setShowDropdown(false);
+  //   }
+  // };
 
-  const handleMouseLeave = () => {
-    if (screenWidth >= 992) {
-      setShowDropdown(false);
-    }
-  };
-
-  if (screenWidth === 0) {
-    return null;
-  }
+  // if (screenWidth === 0) {
+  //   return null;
+  // }
 
   return (
     <nav
@@ -101,14 +97,19 @@ function NavBar() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
-                  className="nav-link items"
-                  style={{ color: `${scrollNav ? "" : "rgb(255, 237, 228)"}` }}
+                  className={`nav-link items ${
+                    activeNavItem === "home" ? "active" : ""
+                  }`}
+                  style={{
+                    color: `${scrollNav ? "" : "rgb(255, 237, 228)"}`,
+                  }}
                   href="/Home"
+                  onClick={() => handleNavLinkClick("home")}
                 >
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 {screenWidth >= 992 ? (
                   <NavDropdown
                     title="Services"
@@ -183,30 +184,57 @@ function NavBar() {
                   </NavDropdown>
                 ) : (
                   <Link
-                    className="nav-link items"
+                    className={`nav-link items ${
+                      activeNavItem === "services" ? "active" : ""
+                    }`}
                     style={{
                       color: `${scrollNav ? "" : "rgb(255, 237, 228)"}`,
                     }}
                     href="/Services"
+                    onClick={() => handleNavLinkClick("services")}
                   >
                     Services
                   </Link>
                 )}
+              </li> */}
+              <li className="nav-item">
+                <Link
+                  className={`nav-link items ${
+                    activeNavItem === "services" ? "active" : ""
+                  }`}
+                  style={{
+                    color: `${scrollNav ? "" : "rgb(255, 237, 228)"}`,
+                  }}
+                  href="/Services"
+                  onClick={() => handleNavLinkClick("services")}
+                >
+                  Services
+                </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link items"
-                  style={{ color: `${scrollNav ? "" : "rgb(255, 237, 228)"}` }}
+                  className={`nav-link items ${
+                    activeNavItem === "products" ? "active" : ""
+                  }`}
+                  style={{
+                    color: `${scrollNav ? "" : "rgb(255, 237, 228)"}`,
+                  }}
                   href="/Products"
+                  onClick={() => handleNavLinkClick("products")}
                 >
                   Products
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  className="nav-link items"
-                  style={{ color: `${scrollNav ? "" : "rgb(255, 237, 228)"}` }}
+                  className={`nav-link items ${
+                    activeNavItem === "contact" ? "active" : ""
+                  }`}
+                  style={{
+                    color: `${scrollNav ? "" : "rgb(255, 237, 228)"}`,
+                  }}
                   href="/Contact-us"
+                  onClick={() => handleNavLinkClick("contact")}
                 >
                   Contact Us
                 </Link>
@@ -214,11 +242,13 @@ function NavBar() {
             </ul>
           </div>
           <button className="btn btn__header">
+<Link href='/Contact-us'>
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             Request a quote
+            </Link>
           </button>
         </div>
       </div>

@@ -3,7 +3,8 @@
 }
 
 .sec3__container {
-    box-shadow: var(--shadow);
+    border-right: 5px solid #5812a3;
+    box-shadow: 5px 25px 25px 10px rgb(18, 46, 87);
     border-radius: 15px;
 }
 .sec3__container h1{
@@ -25,8 +26,13 @@
 .sec3__btn{
     font-size: var(--large-font-size);
     margin-left: 10px;
+    border-radius: 50px !important;
+    border: 2px solid blue;
+    height: 50px;
+    width: 200px;
+    box-shadow: 2px 5px 10px 2px rgb(20, 52, 215);
 }
-
+ 
 .sec3__content{
     margin-top: 45px;
     display: flex !important;
@@ -57,8 +63,8 @@
 }
 
 .sec3__btn:hover{
-    color: white;
-    background-color: blue;
+    border: 2px solid blue;
+    box-shadow: 2px 15px 15px 5px rgb(20, 52, 215)
 }
 
 .img__sec3{

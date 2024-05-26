@@ -38,13 +38,10 @@ const page = () => {
         <div className="video-overlay"></div>
         <div className="home__container container">
           <h1>
-            APPLICATION DEVELOPMENT AND SOFTWARE CONSULTING FOR YOUR DIGITAL
-            SUCCESS
+          Secure Your Life with Respecto
           </h1>
           <p>
-            Since 2013. We have been providing innovative, result-driven, and
-            versatile digital solutions to assist businesses in connecting with
-            their customers and scaling new heights.
+          Empower yourself with cutting-edge security features, tailored to address the unique challenges women face in both the digital and physical realms. With Respecto, you can confidently navigate your daily life, knowing your privacy and security are in trusted hands.
           </p>
         </div>
       </div>

@@ -20,6 +20,8 @@
 .pro-item__img{
     align-self: center;
     border-radius: 40px;
+    height: 280px;
+    width: 280px;
 }
 
 .pro-item__btn{
@@ -28,6 +30,7 @@
     padding: 16px;
     width: 300px;
     height: 60px;
+    color: wheat;
 }
 
 .pro-item__title{
@@ -37,6 +40,10 @@
 .pro-item__subtitle{
     color: white;
     text-align: center;
+}
+
+.pro-item__btn:hover{
+    color: aqua;
 }
 
 @media screen and (max-width:990px){

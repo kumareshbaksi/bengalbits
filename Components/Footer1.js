@@ -13,7 +13,6 @@ const Footer1 = () => {
         <div className="first__footer">
           <div className="footerfirst1">
             <a className="navbar-brand" href="#home">
-              {" "}
               <span className="nav__head">
                 <span className="logo__home">
                   <Image src={Logo} alt="" className="icon__home"/>
@@ -23,7 +22,7 @@ const Footer1 = () => {
             </a>
           </div>
           <div className="footerfirst2">
-            <p className=''>
+            <p className='section__subtitle footer__sub'>
               Building Dreams, Crafting Excellence: Your Trusted Partners for
               Sustainable, Client-Centric Construction.
             </p>
@@ -36,8 +35,7 @@ const Footer1 = () => {
           </div>
           <div className="footerfirst2">
             <p className='section__subtitle para'>
-            5ES6, EAST TOWER,
-Mani Casadona, Action Area I, Newtown, Kolkata, Chakpachuria, West Bengal 700160, India.
+            Jagadishpur, Howrah, West Bengal 711114 , India
             </p>
           </div>
 
@@ -49,10 +47,12 @@ Mani Casadona, Action Area I, Newtown, Kolkata, Chakpachuria, West Bengal 700160
             <h1>Quick Links</h1>
           </div>
           <div className="footerfirst2">
-            <div className='section__subtitle para'>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="privacy">Privacy Policy</a>
+            <div className='para'>
+            <ul>
+           <li className="privacy__f1"><a href="#home">Home</a></li>
+           <li className="privacy__f1"><a href="#about">About</a></li>
+           <li className="privacy__f1"><a href="privacy">Privacy Policy</a></li>
+            </ul>
             </div>
           </div>
 
@@ -63,14 +63,18 @@ Mani Casadona, Action Area I, Newtown, Kolkata, Chakpachuria, West Bengal 700160
         <div className="footerfirst1">
             <h1>Contact Details</h1>
           </div>
-          <div className="footerfirst2">
+          <div className="footerfirst2 last">
           <div className="ics">
-                    <div className="section__title"><FaPhoneAlt className='ic'/></div>
-                    <p className="para section__subtitle">123456879</p>
+                    <div className="section__subtitle icon__foot"><FaPhoneAlt className='ic'/></div>
+                    <div className="ic1">
+                      <p className="para para2 section__subtitle">+91 93303 41097</p>
+                    </div>
                 </div>
           <div className="ics">
-                    <div className="section__title">< MdOutlineMail className='ic'/></div>
-                    <p className="para section__subtitle">abc@gmail,com</p>
+                    <div className="section__subtitle icon__foot">< MdOutlineMail className='ic'/></div>
+                    <div className="ic1">
+                    <p className="para para2 section__subtitle">bengalbitsteam@gmail.com</p>
+                    </div>
                 </div>
           </div>
 

@@ -75,3 +75,21 @@
   .text-cs{
     padding: 15px;
   }
+
+ .form__contact-home{
+  display: flex;
+  justify-content: center;
+
+ }
+
+ .home__form-head{
+  text-align: center;
+ }
+
+ .form1__home{
+  width: 600px;
+ }
+
+ .form2__home{
+  width: 200px;
+ }

@@ -3,7 +3,9 @@
 }
 
 .test__cont{
-    background-color: rgb(27, 27, 28); 
+    border-left: 5px solid rgb(30, 161, 255);
+    background-color: rgb(8, 8, 60); 
+    box-shadow: 5px 10px 25px 5px blue;
 }
 
 .img__wyd{
@@ -12,8 +14,14 @@
     padding: 20px;
 }
 
+.wyd_about__div{
+    min-height: 280px;
+}
+
 .wyd__about{
-    padding-top: 20px;
+    padding-block: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     color: rgb(199, 199, 199);
 }
@@ -24,4 +32,22 @@
 
 .wyd__main{
     padding: 15px;
+}
+
+@media screen and (max-width:1020px) {
+    .img__wyd{
+        height: 350px;
+        width: 600px;
+    }
+    .wyd_about__div{
+        min-height: 300px;
+    }
+}
+@media screen and (max-width:482px) {
+    .wyd__btn{
+        padding-top: 1px;
+     }
+     .wyd_about__div{
+        min-height: 200px;
+    }
 }

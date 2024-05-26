@@ -5,6 +5,7 @@ import image from '@/public/assets/product-item.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
 import res from '@/public/assets/pro_res.jpg'
+import chat from '@/public/assets/chat.jpg'
 
 const page = () => {
   return (
@@ -49,7 +50,7 @@ const page = () => {
             Read More</Link>
             </div>
             <div className="card">
-                <Image className="pro-item__img" src={res} ></Image>
+                <Image className="pro-item__img" src={chat} ></Image>
                 <h1 className="section__title pro-item__title">ChatraNiketan</h1>
                 <p className="section__subtitle pro-item__subtitle">This app is for all women to get safety in her hand. Get ready to save yourself with Respecto.</p>
                 <Link href='/Products/Chatraniketan' className="btn btn__header pro-item__btn">

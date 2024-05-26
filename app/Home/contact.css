@@ -43,18 +43,20 @@ input {
 }
 
 .about__divs{
+    padding-top: 50px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     column-gap: 20px;
 }
 
 .head{
+    padding-block: 20px;
     font-size: var(--large-font-size);
+    color: wheat;
 }
 
 .about__icon{
-    height: 30px;
-    width: 30px;
+    font-size: 40px;
 }
 
 
@@ -120,6 +122,10 @@ input{
 .submit__form:hover{
     background-color: #0195FF;
     color: aliceblue;
+}
+
+.tail{
+    text-align: center;
 }
 
 @media screen and (max-width:1003px){

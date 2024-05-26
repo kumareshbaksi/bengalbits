@@ -1,5 +1,6 @@
 .sec4{
     padding-block: 30px;
+    
 }
 
 .sec4__container h1{
@@ -15,7 +16,9 @@
 }
 
 .sec4__container{
-    box-shadow: var(--shadow);
+    border-left: 5px solid #5812a3;
+    border-right: 5px solid #5812a3;
+    box-shadow: 5px 25px 25px 10px rgb(18, 46, 87);
   border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -35,31 +38,31 @@
 }
 
 .content__item:first-child{
-    background-image: url('https://supportsoft.com.au/uploads/project_images/4b86b45df99fd266eac9ca452627a7e9.jpg');
+    background-image: url('../../public/assets/ux1.jpg');
 }
 .content__item:nth-child(2){
-    background-image: url('./ux1.jpg');
+    background-image: url('../../public/assets/ux2.jpg');
 }
 .content__item:nth-child(3){
-    background-image: url('https://supportsoft.com.au/uploads/project_images/4b86b45df99fd266eac9ca452627a7e9.jpg');
+    background-image: url('../../public/assets/ux4.jpg');
 }
 .content__item:nth-child(4){
-    background-image: url('https://supportsoft.com.au/uploads/project_images/4b86b45df99fd266eac9ca452627a7e9.jpg');
+    background-image: url('../../public/assets/ux5.jpg');
 }
 
 
 .content__item{
-    background-image: url('https://supportsoft.com.au/uploads/project_images/4b86b45df99fd266eac9ca452627a7e9.jpg');
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;
     /* position: absolute; */
     width: 280px;
     height: 450px;
-    border: 3px solid #e9ecef;
-    border-radius: 10px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.12);
-    transition:background-position 10s ease-out;
+    transition:background-position 3s ease-out;
+    border: 3px solid #5812a3;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px 2px rgb(18, 46, 87);
 }
 
 

@@ -1,11 +1,13 @@
 /*---*/
 /* google fonts */
 /*****/
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,700;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Jost:ital,wght@0,700;1,700&display=swap');
 
+
+/*roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /*  var */
 
 :root {
@@ -25,7 +27,8 @@
             var(--bg-color) 100%);
 
 
-            --primary-color: #0195FF;
+            /* --primary-color: #0195FF; */
+            --primary-color: #0466ac;
             --primary-color2:hsl(240, 71%, 84%);
             --title-color: #000;
             --text-color:#262626 ;
@@ -42,8 +45,8 @@
                 --shadow: 5px 5px rgb(0 0 0 / 20%);
     /** typo*/
 
-    --body-font: "Jost", sans-serif;
-    --second-font: "Caveat", cursive;
+    --body-font: "Poppins", sans-serif;
+    --second-font: "Roboto", cursive;
 
     --biggest-font-size: clamp(2.25rem, 1.125rem + 5.1429vw, 5.625rem);;
     --h1-font-size:clamp(1.75rem, 1.4167rem + 1.5238vw, 2.75rem);;
@@ -165,8 +168,9 @@ img {
 .section__title {
     color: var(--primary-color);
     font-size: var(--h1-font-size);
-    font-family: var(--body-font);
+    font-family: var(--second-font);
     text-align: center;
+    text-transform: uppercase;
 }
 
 .section__subtitle {
@@ -193,26 +197,24 @@ img {
 /*for highlighting*/
 .blue{
     font-weight: 900;
-    color: blue;
+    color: rgb(11, 11, 79);
 }
 
 .btn__header{
     box-shadow:0 2px 25px #FFE922;
-    color: white !important;
     text-transform: uppercase;
     overflow: hidden;
     letter-spacing: 0.2em;
     font-weight: 800 !important;
+    background: transparent;
 }
-.btn__header::before{
-    position: absolute;
-    width: 50%;
-    top: 2px;
-    left: 2px;
-    bottom: 2px;
-    content: '';
-    background: rgb(142 255 240 / 10%);
+
+.btn__header a{
+    text-decoration: none;
+    color: wheat;
 }
+
+
 
 .btn__header span:nth-child(1){
     position: absolute;
@@ -264,6 +266,10 @@ img {
     color: white !important;
     border: 2px solid red !important;
     box-shadow: 10px 20px 20px 10px #095f9c;
+}
+
+.home{
+    box-shadow: 2px 15px 50px rgb(10, 10, 86);
 }
 
 @keyframes slideRight {

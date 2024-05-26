@@ -61,7 +61,9 @@
     color: white;
 }
 
-
+.nav-link.active {
+    color: white !important; /* Ensure it overrides other styles */
+  }
 
 
 @keyframes header_animate {

@@ -27,7 +27,7 @@ const page = () => {
     <>
           <div className="background-video home" id="home">
         {/* <video autoPlay loop muted playsInline>
-            <source src="https://supportsoft.com.au/web/video/banner-bg.mp4" type="video/mp4" />
+            <source src="" type="video/mp4" />
             Your browser does not support the video tag.
           </video> */}
         <div className="image__item">
@@ -38,25 +38,11 @@ const page = () => {
         <div className="video-overlay"></div>
         <div className="home__container container">
           <h1>
-            APPLICATION DEVELOPMENT AND SOFTWARE CONSULTING FOR YOUR DIGITAL
-            SUCCESS
+          Get in Touch with Expert Web Developers
           </h1>
           <p>
-            Since 2013. We have been providing innovative, result-driven, and
-            versatile digital solutions to assist businesses in connecting with
-            their customers and scaling new heights.
+          Our team of expert developers is ready to bring your vision to life. Reach out to us today to discuss your project and discover how we can help you succeed online.
           </p>
-          <div
-            className="action-btns text-center pt-4"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div className="home__btn">
-              <button className="btn text-cs" href="">
-                Contact Us
-              </button>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -73,30 +59,37 @@ const page = () => {
               </h1>
             </div>
             <p className="section__subtitle cont__subt">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo consectetur sequi asperiores voluptas excepturi voluptatum tempora odio sit quam laborum.
+            Our team of expert developers is ready to bring your vision to life. Reach out to us today to discuss your project and discover how we can help you succeed online.
             </p>
             <div className="about__divs">
               <div className="about1">
-                <div className="section__title">
-                  <FaPhoneAlt className="about__icon " />
+                
+                <div className=" icon__contact">
+                  <FaPhoneAlt className="about__icon section__title" />
+                <h5 className="head">Call us</h5>
                 </div>
-                <h5 className="section__title head">Call us</h5>
-                <p className="section__subtitle cont__subt">
+                
+                <div className="about__icon__contact"><p className="section__subtitle cont__subt">
                   Questions about your project or pricing? Call for support
                 </p>
-              </div>
-              <div className="about2">
-                <div className=" section__title">
-                  <MdMessage className="about__icon " />
                 </div>
-                <h5 className="section__title head">Chat with us</h5>
-                <p className="section__subtitle cont__subt">
-                  Our support will help you from 9am to 5pm AEDT.
-                </p>
               </div>
+              <div className="about1">
+                
+                <div className=" icon__contact">
+                <MdMessage className="about__icon section__title" />
+                <h5 className="head">Chat with us</h5>
+                </div>
+                
+                <div className="about__icon__contact"><p className="section__subtitle cont__subt">
+                  Questions about your project or pricing? Call for support
+                </p>
+                </div>
+              </div>
+              
             </div>
           </div>
-
+          
           <div className="form__contact form__cont">
             <div className="section__title form__title">
               <p>

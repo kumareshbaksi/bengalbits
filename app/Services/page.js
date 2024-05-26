@@ -1,20 +1,16 @@
 "use client"
 import React from 'react'
 import Web from './web.jpg'
-import App from './app.jpg'
 import Ser from './ser.jpg'
-import ux1 from '@/public/assets/ux1.jpg'
-import ux2 from '@/public/assets/ux2.jpg'
 import ux3 from '@/public/assets/ux3.jpg'
-import ux4 from '@/public/assets/ux4.jpg'
 import './sec2.css'
 import './sec3.css'
 import './sec4.css'
 import Image from 'next/image'
 import "../Home/home.css"
 
-
 const page = () => {
+  const phoneNumber = "+91 93303 41097";
   return (
     <> 
 
@@ -43,11 +39,11 @@ const page = () => {
         <div className="sec3__container container">
             <div className="sec3__heading section__title">
                 <h1>Website Development</h1>
-                <h2 className='section__subtitle'>We Create Powerful Software Solutions That Help Businesses Succeed</h2>
+                <h2 className='section__subtitle'>We Create Responsive Custom Websites That Help Businesses Succeed</h2>
 
                 <div className="btns btns1">
-                <button className="btn sec3__btn">Get in touch</button>
-                <button className="btn sec3__btn">learn More</button>
+                <button className="btn sec3__btn"  onClick={() => window.location.href = `tel:${phoneNumber}`}>Call Us</button>
+                {/* <button className="btn sec3__btn">learn More</button> */}
                 </div>
              
             </div>
@@ -57,7 +53,7 @@ const page = () => {
                     <Image className='img__sec3' src={Web} alt="" />
                 </div>
                 <div className="text__content">
-                    <h1>Softwares, 100% Tailored To your Needs</h1>
+                    <h1 className='section__title'>Customized web development solutions</h1>
                     <p className='section__subtitle'>Website development is the digital backbone of a company, shaping its online presence and customer interaction. It begins with understanding the company&apos;s goals, target audience, and branding identity. Designing a website involves creating a visually appealing layout that is intuitive to navigate. Development encompasses coding, ensuring functionality across various devices and browsers. Content creation is pivotal, conveying the company&apos;s message effectively. Integration of features like e-commerce or contact forms enhances user experience. Security measures must be implemented to protect sensitive data and maintain trust. Regular updates and maintenance keep the website running smoothly and up-to-date. Optimization for search engines boosts visibility and traffic. Ultimately, website development is a dynamic process, reflecting the company&apos;s growth and evolution in the digital era. 
 
                     </p>
@@ -76,8 +72,8 @@ const page = () => {
 
                 </p>
 <div className="btns">
-<button href='#' className='btn sec3__btn'>View Projects</button>
-        <button href='#' className='btn sec3__btn'>Book free consultation</button>
+<button className="btn sec3__btn"  onClick={() => window.location.href = `tel:${phoneNumber}`}>Call Us</button>
+        {/* <button href='#' className='btn sec3__btn'>Book free consultation</button> */}
 </div>
        
 
@@ -103,8 +99,8 @@ const page = () => {
 
                 <div className="btns btns1">
                
-                <button className="btn sec3__btn">learn More</button>
-                <button className="btn sec3__btn">Free consultation</button>
+                <button className="btn sec3__btn"  onClick={() => window.location.href = `tel:${phoneNumber}`}>Call Us</button>
+                {/* <button className="btn sec3__btn">Free consultation</button> */}
                 </div>
              
             </div>

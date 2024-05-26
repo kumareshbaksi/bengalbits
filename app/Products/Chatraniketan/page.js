@@ -26,13 +26,10 @@ const page = () => {
         <div className="video-overlay"></div>
         <div className="home__container container">
           <h1>
-            APPLICATION DEVELOPMENT AND SOFTWARE CONSULTING FOR YOUR DIGITAL
-            SUCCESS
+          Ensure effective learning with Chatraniketon
           </h1>
           <p>
-            Since 2013. We have been providing innovative, result-driven, and
-            versatile digital solutions to assist businesses in connecting with
-            their customers and scaling new heights.
+          Transform your learning process to a great height. Get easy, user friendly platform to enhance capability to understand, learn things better.
           </p>
         </div>
       </div>

@@ -45,7 +45,7 @@ const Footer = () => {
 
         <p className="footer__copyright text-cs">
         {/* <a className="navbar-brand" href="#home"> <span className="nav__head"><span className="logo__home"><img src={logo} alt="" className='icon__home'/></span>Bengal Bits</span></a> */}
-        Developed And Designed By <span>Priyansu</span>
+        Developed By <span>Bengal Bits</span>
         </p>
         </div>
     </footer>

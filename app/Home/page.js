@@ -6,20 +6,38 @@ import "./sec1.css";
 import "./work.css";
 import "./sec6.css";
 import "./test.css";
-import "./wyd.css"
-import { FaTelegram } from "react-icons/fa";
+import "./wyd.css";
 import "./contact.css";
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdMessage } from "react-icons/md";
 import { Controller } from "react-hook-form";
 import { useForm } from "react-hook-form";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Link from "next/link";
-import image from "./image.jpg"
-import image1 from "./image1.jpg"
-import web from "./web.jpg"
+import image from "./image.jpg";
+import ux1 from '@/public/assets/ux1.jpg'
+import ux3 from '@/public/assets/ux3.jpg'
+import web from "./web.jpg";
+import about1 from "@/public/assets/about1.jpg";
+import about2 from "@/public/assets/about2.jpg";
+import about3 from "@/public/assets/about3.jpg";
+import about4 from "@/public/assets/about4.jpg";
+import about5 from "@/public/assets/about5.jpg";
+import about6 from "@/public/assets/about6.jpg";
+import about7 from "@/public/assets/about7.jpg";
+import about8 from "@/public/assets/about8.jpg";
+import sec6 from "@/public/assets/sec6.jpg";
+import enter from "@/public/assets/enterprise.jpg"
+import { RiTeamFill } from "react-icons/ri";
+import { PiNotePencilFill } from "react-icons/pi";
+import { RiContactsFill } from "react-icons/ri";
+import { GoStarFill } from "react-icons/go";
+import { AiOutlineSolution } from "react-icons/ai";
+import { GrTechnology } from "react-icons/gr";
+import { FaPersonCircleCheck } from "react-icons/fa6";
+import { FaUserClock } from "react-icons/fa6";
+import { SiGnuprivacyguard } from "react-icons/si";
+import { BsTelephoneOutboundFill } from "react-icons/bs";
 
 const Home = () => {
   const settings2 = {
@@ -33,31 +51,31 @@ const Home = () => {
     arrows: false,
     responsive: [
       {
-          breakpoint: 1024, // Width for medium devices
-          settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-          }
+        breakpoint: 1024, // Width for medium devices
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
       },
       {
-          breakpoint: 768, // Width for small devices
-          settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-          }
+        breakpoint: 768, // Width for small devices
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
       },
       {
-          breakpoint: 480, // Width for very small devices
-          settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-          }
-      }
-  ]
+        breakpoint: 480, // Width for very small devices
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   const settings = {
     dots: true,
@@ -70,31 +88,31 @@ const Home = () => {
     arrows: false,
     responsive: [
       {
-          breakpoint: 1024, // Width for medium devices
-          settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-          }
+        breakpoint: 1024, // Width for medium devices
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
       },
       {
-          breakpoint: 768, // Width for small devices
-          settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-          }
+        breakpoint: 768, // Width for small devices
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
       },
       {
-          breakpoint: 480, // Width for very small devices
-          settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-          }
-      }
-  ]
+        breakpoint: 480, // Width for very small devices
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const {
@@ -106,6 +124,8 @@ const Home = () => {
   } = useForm();
 
   const onSubmit = (data) => console.log(data);
+
+  const phoneNumber = "+91 93303 41097";
 
   return (
     <>
@@ -120,19 +140,16 @@ const Home = () => {
 
         <div className="video-overlay"></div>
         <div className="home__container container">
-          <h1>
-          Build your dream application with us
-          </h1>
+          <h1>Welcome to Bengal Bits</h1>
           <p>
-          Transform your vision into reality with our expert app development team. Craft the perfect app tailored to your needs with our dedicated developers. Let's bring your ideas to life together.
+          Transform Your Digital World: Expert Web Development, Innovative Design, and Advanced App Solutions
           </p>
-          
-            <div className="home__btn">
-              <Link className="btn text-cs" href='#contact'>
-                Contact Us
-              </Link>
-            </div>
-         
+
+          <div className="home__btn">
+            <Link className="btn text-cs" href="/Contact-us">
+              Consult With Our experts
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -145,48 +162,46 @@ const Home = () => {
 
             <div className="flex__content">
               <div className="about__content">
-                <b>Here&apos;s what we excel at:</b>
+                <b>What We Do Best:</b>
                 <p className="section__subtitle">
-                  At <span className="blue">Bengal Bits</span>, we&apos;re all about
-                  building awesome websites and smart IT solutions using the
-                  latest AI tech. We love finding new ways to make your online
-                  presence stand out, whether it&apos;s designing a sleek website or
-                  creating clever AI-driven apps. Our team is a bunch of tech
-                  enthusiasts who mix creativity with tech skills to give you
-                  top-notch results. We&apos;re here to make your digital journey
-                  smooth and successful, from start to finish. Let&apos;s team up and
-                  take your business to the next level with the power of AI!
+                  At <span className="blue">Bengal Bits</span>, we&apos;re all
+                  about building awesome websites and smart IT solutions using
+                  the latest AI tech. We love finding new ways to make your
+                  online presence stand out, whether it&apos;s designing a sleek
+                  website or creating clever AI-driven apps. Our team is a bunch
+                  of tech enthusiasts who mix creativity with tech skills to
+                  give you top-notch results. We&apos;re here to make your
+                  digital journey smooth and successful, from start to finish.
+                  Let&apos;s team up and take your business to the next level
+                  with the power of AI!
                 </p>
               </div>
 
               <div className="content__img">
                 <div className="slider__anim">
                   <span style={{ "--i": 1 }}>
-                    <Image src={image1} alt="" className="work__image" />
+                    <Image src={about1} alt="" className="work__image" />
                   </span>
                   <span style={{ "--i": 2 }}>
-                    <Image src={image} alt="" className="work__image" />
+                    <Image src={about2} alt="" className="work__image" />
                   </span>
                   <span style={{ "--i": 3 }}>
-                    <Image src={image} alt="" className="work__image" />
+                    <Image src={about3} alt="" className="work__image" />
                   </span>
                   <span style={{ "--i": 4 }}>
-                    <Image src={image} alt="" className="work__image" />
+                    <Image src={about4} alt="" className="work__image" />
                   </span>
                   <span style={{ "--i": 5 }}>
-                    <Image src={image} alt="" className="work__image" />
+                    <Image src={about5} alt="" className="work__image" />
                   </span>
                   <span style={{ "--i": 6 }}>
-                  <Image src={image} alt="" className="work__image" />
-
+                    <Image src={about6} alt="" className="work__image" />
                   </span>
                   <span style={{ "--i": 7 }}>
-                  <Image src={image} alt="" className="work__image" />
-
+                    <Image src={about7} alt="" className="work__image" />
                   </span>
                   <span style={{ "--i": 8 }}>
-                  <Image src={image} alt="" className="work__image" />
-
+                    <Image src={about8} alt="" className="work__image" />
                   </span>
                 </div>
               </div>
@@ -199,51 +214,63 @@ const Home = () => {
         <div className="test__cont container">
           <h1 className="section__heading section__title">What We Do</h1>
 
-          <Slider className='slide container' {...settings2}>
-
-          
-          <div className="wyd__content">
-              <Image className='img__wyd' src={web} alt="" />
-            <h2 className="section__title"> Web Development</h2>
-              <p className="section__subtitle wyd__about">
-                Website development shapes a company&apos;s online presence, starting
-                with goals, audience, and branding. Designing an intuitive
-                layout, coding for functionality across devices...
-              </p>
+          <Slider className="slide container" {...settings2}>
+            <div className="wyd__content">
+              <Image className="img__wyd" src={web} alt="" />
+              <div className="wyd_about__div">
+                <h2 className="section__title"> Web Development</h2>
+                <p className="section__subtitle wyd__about">
+                  Website development shapes a company&apos;s online presence,
+                  starting with goals, audience, and branding. Designing an
+                  intuitive layout, coding for functionality across devices...
+                </p>
+              </div>
               <div className="home__btn wyd__btn">
-              {/* <button className="btn text-cs" href="">
+                {/* <button className="btn text-cs" href="">
               Read more
               </button> */}
-              <Link className="btn text-cs wyd__main" href="/Services#web">Read More</Link>
+                <Link className="btn text-cs wyd__main" href="/Services#web">
+                  Read More
+                </Link>
+              </div>
             </div>
-          </div>
-          <div className="wyd__content">
-              <Image className='img__wyd' src={web} alt="" />
-              <h2 className="section__title"> App Development</h2>
-              <p className="section__subtitle wyd__about">
-              App development blends creativity and technical skill, involving idea refinement, intuitive design, coding, testing, and optimization. Compatibility, security, and user feedback...
-              </p>
+            <div className="wyd__content">
+              <Image className="img__wyd" src={ux3} alt="" />
+              <div className="wyd_about__div">
+                <h2 className="section__title"> App Development</h2>
+                <p className="section__subtitle wyd__about">
+                  App development blends creativity and technical skill,
+                  involving idea refinement, intuitive design, coding, testing,
+                  and optimization. Compatibility, security, and user
+                  feedback...
+                </p>
+              </div>
               <div className="home__btn wyd__btn">
-              {/* <button className="btn text-cs" href="">
+                {/* <button className="btn text-cs" href="">
               Read more
               </button> */}
-                            <Link className="btn text-cs wyd__main" href="/Services#app">Read More</Link>
-
+                <Link className="btn text-cs wyd__main" href="/Services#app">
+                  Read More
+                </Link>
+              </div>
             </div>
-          </div>
-          <div className="wyd__content">
-              <Image className='img__wyd' src={web} alt="" />
-              <h2 className="section__title"> Ui/Ux Design</h2>
-              <p className="section__subtitle wyd__about">
-              UI/UX design combines creativity and user understanding for great digital experiences. It focuses on easy interfaces, accessibility, and a strong brand look. Testing makes sure it works well...
-              </p>
+            <div className="wyd__content">
+              <Image className="img__wyd" src={ux1} alt="" />
+              <div className="wyd_about__div">
+                <h2 className="section__title"> Ui/Ux Design</h2>
+                <p className="section__subtitle wyd__about">
+                  UI/UX design combines creativity and user understanding for
+                  great digital experiences. It focuses on easy interfaces,
+                  accessibility, and a strong brand look. Testing makes sure it
+                  works well...
+                </p>
+              </div>
               <div className="home__btn wyd__btn">
-              <Link className="btn text-cs wyd__main" href="/Services#ui">Read More</Link>
-
+                <Link className="btn text-cs wyd__main" href="/Services#ui">
+                  Read More
+                </Link>
+              </div>
             </div>
-          </div>
-          
-
           </Slider>
         </div>
       </section>
@@ -252,64 +279,95 @@ const Home = () => {
         <div className="main__work container">
           <div className="section__heading">
             <h2 className="section__title">
-              Enterprise Software And App Developers Australia
+              Why Choose Us
             </h2>
+            <h4 className="section__subtitle sec1__sub">
+            Choose us for innovative, efficient, and standout web development that drives your success online.
+            </h4>
           </div>
           <div className="sec-1">
             <div className="sec-1__first">
               <div className="icon-content">
                 <span className="icon">
-                  <FaTelegram />
+                  <RiTeamFill />
                 </span>
 
                 <div className="about">
-                  <h3>Complete IT Coverage</h3>{" "}
-                  <p>
-                    We have everything your IT ecosystem needs. We are not
-                    another team of a yes-man, we want the best results for you.
-                    From robust development to expert maintenance we provide all
-                    under one roof.
+                  <h3>Experienced Team:</h3>
+                  <p classname="section__subtitle">
+                  Our skilled developers deliver top-notch web solutions tailored to your business.We create unique, user-friendly websites that reflect your brand.
+                  </p>
+                </div>
+              </div>
+              {/* <div className="icon-content">
+                <span className="icon">
+                <AiOutlineSolution />
+                </span>
+
+                <div className="about">
+                  <h3>Custom Solutions: </h3>
+                  <p classname="section__subtitle">
+                  We create unique, user-friendly websites that reflect your brand.
+
+                  </p>
+                </div>
+              </div> */}
+              <div className="icon-content">
+                <span className="icon">
+                <GrTechnology />
+                </span>
+
+                <div className="about">
+                  <h3>Latest Technology:</h3>
+                  <p classname="section__subtitle">
+                  We utilize cutting-edge tech to build modern, responsive, and SEO-friendly websites.
                   </p>
                 </div>
               </div>
               <div className="icon-content">
                 <span className="icon">
-                  <FaTelegram />
+                <FaPersonCircleCheck />
                 </span>
 
                 <div className="about">
-                  <h3>Complete IT Coverage</h3>{" "}
-                  <p>
-                    We have everything your IT ecosystem needs. We are not
-                    another team of a yes-man, we want the best results for you.
-                    From robust development to expert maintenance we provide all
-                    under one roof.
+                  <h3>Client-Focused:</h3>
+                  <p classname="section__subtitle">
+                  We prioritize your needs, ensuring a collaborative and transparent process.
                   </p>
                 </div>
               </div>
               <div className="icon-content">
                 <span className="icon">
-                  <FaTelegram />
+                  <FaUserClock/>
                 </span>
 
                 <div className="about">
-                  <h3>Complete IT Coverage</h3>{" "}
-                  <p>
-                    We have everything your IT ecosystem needs. We are not
-                    another team of a yes-man, we want the best results for you.
-                    From robust development to expert maintenance we provide all
-                    under one roof.
+                  <h3>Timely Delivery:</h3>
+                  <p classname="section__subtitle">
+                  We guarantee on-time project completion without sacrificing quality.
+
+                  </p>
+                </div>
+              </div>
+              <div className="icon-content">
+                <span className="icon">
+                  <SiGnuprivacyguard/>
+                </span>
+
+                <div className="about">
+                  <h3>Ongoing Support:</h3>
+                  <p classname="section__subtitle">
+                  Post-launch, we offer continuous support to keep your site secure and up-to-date.
                   </p>
                 </div>
               </div>
             </div>
 
             <div className="sec-1__2nd">
-              <div className="img-wrap">
-                <img
-                  src="https://supportsoft.com.au/web/img/feature-img4.jpg"
-                  alt="feature image"
-                  className="img-fluid rounded-custom" 
+              <div className="img-sec1">
+                <Image
+                  src={enter}
+                  className="img-fluid rounded-custom"
                 />
               </div>
             </div>
@@ -419,51 +477,30 @@ const Home = () => {
       <section className="sec6 container">
         <div className="sec6__container container">
           <div className="col-lg-5 col-md-12 sec6__img__content">
-            <div className="position-relative">
-              {" "}
-              <img
-                src="https://supportsoft.com.au/web/img/banner_image.png"
-                alt="mainImg"
-                className="main__img"
-              />
-              <div className="dots">
-                {" "}
-                <img
-                  src="https://supportsoft.com.au/web/img/banner_dot.png"
-                  alt="dot"
-                  className="dot1"
-                />{" "}
-                <img
-                  src="https://supportsoft.com.au/web/img/banner_dot.png"
-                  alt="dot"
-                  className="dot2"
-                />{" "}
-              </div>
+            <div className="position-relative img__left">
+              <Image src={sec6} alt="mainImg" className="main__img" />
             </div>
           </div>
 
           <div className="col-lg-6 col-md-12 content2">
             <div className="pt-5">
               <h2 className="section__title sec6__title">
-                What Helps Us Stand Apart?
+              <span className="icon2">
+              <BsTelephoneOutboundFill/>   Call Us 24/7</span>
               </h2>
-              <p className="section__subtitle sec6__subt">
-                {" "}
-                We are a company of ingenious minds who have innovative
-                solutions for your every software and digital transformation
-                requirement. Over the years, Supportsoft Technologies has
-                established a reputation as an accomplished result-driven IT
-                solutions provider that helps businesses smoothly achieve their
-                objectives.
+              
+              <p className="section__title sec6__subt1">
+              +91 93303 41097
               </p>
-              <ul className="sec6__items">
+              <p className="section__subtitle sec6__subt">
+              If you are looking for the best web development services, you are in the right place. Count on the expertise of Bengal Bits for best responsive websites, beautiful web designs,advanced applications.
+              </p>
+              <div className="btns">
+              <button className="sec6__btn" onClick={() => window.location.href = `tel:${phoneNumber}`}>Call Now</button></div>
+              <div className="sec6__items">
                 <li className="sec6__item">
-                  <div className="me-3">
-                    {" "}
-                    <img
-                      src="https://supportsoft.com.au/web/img/icons/dw-i-1.svg"
-                      alt="icon"
-                    />{" "}
+                  <div className="me-3 icon__sec6">
+                    <RiContactsFill />
                   </div>
                   <div>
                     <h4 className="item__head">2+ </h4>
@@ -471,13 +508,8 @@ const Home = () => {
                   </div>
                 </li>
                 <li className="sec6__item">
-                  <div className="me-3">
-                    {" "}
-                    <img
-                      src="https://supportsoft.com.au/web/img/icons/dw-i-2.svg"
-                      className="img-fluid"
-                      alt="icon"
-                    />{" "}
+                  <div className="me-3 icon__sec6">
+                    <PiNotePencilFill />
                   </div>
                   <div>
                     <h4 className="item__head">50+</h4>
@@ -485,13 +517,8 @@ const Home = () => {
                   </div>
                 </li>
                 <li className="sec6__item">
-                  <div className="me-3">
-                    {" "}
-                    <img
-                      src="https://supportsoft.com.au/web/img/icons/dw-i-3.svg"
-                      className="img-fluid"
-                      alt="icon"
-                    />{" "}
+                  <div className="me-3 icon__sec6">
+                    <RiTeamFill />
                   </div>
                   <div>
                     <h4 className="item__head">10+</h4>
@@ -499,20 +526,15 @@ const Home = () => {
                   </div>
                 </li>
                 <li className="sec6__item">
-                  <div className="me-3">
-                    {" "}
-                    <img
-                      src="https://supportsoft.com.au/web/img/icons/dw-i-4.svg"
-                      className="img-fluid"
-                      alt="icon"
-                    />{" "}
+                  <div className="me-3 icon__sec6">
+                    <GoStarFill />
                   </div>
                   <div>
                     <h4 className="item__head">100%</h4>
                     <span>Satisfaction assured</span>
                   </div>
                 </li>
-              </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -521,98 +543,27 @@ const Home = () => {
       {/*slider here*/}
 
       <section className="contact" id="contact">
-        <div className="container contact__container">
-          <div className="about__contact">
-            <div className="section__title">
-              <span className="arrow">Contact Us</span>{" "}
-              <img
-                src="https://supportsoft.com.au/web/img/arro-right.svg"
-                className="img-fluid"
-                alt="arrow"
-              />
-            </div>
-            <h1 className="heading__contact section__title">
-              Get in touch <span>today!</span>
+        <div className="container home-contact__container">
+          <div className="section__title">
+            <h1 className="heading__contact section__title heading__contact">
+              Get in touch with<span>Us!</span>
             </h1>
-            <p className="section__subtitle">
-              Reach out to us for your requirements and endeavor your journey to
-              digital excellence with the right team. Our team will also help
-              you create a lucrative MVP for attracting investors to your
-              venture.
-            </p>
-            <div className="about__divs">
-              <div className="about1">
-                <div className="section__title">
-                  <FaPhoneAlt className="about__icon " />
-                </div>
-                <h5 className="section__title head">Call us</h5>
-                <p className="section__subtitle">
-                  Questions about your project or pricing? Call for support
-                </p>
-              </div>
-              <div className="about2">
-                <div className=" section__title">
-                  <MdMessage className="about__icon " />
-                </div>
-                <h5 className="section__title head">Chat with us</h5>
-                <p className="section__subtitle">
-                  Our support will help you from 9am to 5pm AEDT.
-                </p>
-              </div>
-            </div>
           </div>
-
-          <div className="form__contact">
-            <div className="section__title form__title">
-              <p>
-                Fill Out The Form And We&apos;ll Be In Touch As Soon As Possible.
-              </p>
-            </div>
+          <div className="form__home">
             <form action="" onSubmit={handleSubmit(onSubmit)}>
-              <div className="form1">
-                <input
-                  placeholder="Full Name"
-                  {...register("name", { required: true })}
-                  type="text"
-                  className="inp-1"
-                />
-                <input
-                  placeholder="Email"
-                  {...register("email", { required: true })}
-                  type="email"
-                  className="inp-1"
-                />
-              </div>
-
-              <div className="form2">
-                <input
-                  placeholder="Phone Number"
-                  {...register("number", { required: true })}
-                  type="phone"
-                  className="inp-1"
-                />
-                <input
-                  placeholder="Subject"
-                  {...register("subject", { required: true })}
-                  type="text"
-                  className="inp-1"
-                />
-              </div>
-
-              {/* <input placeholder='tell us about your project' {...register("about", { required: true })} type="text" className='area'/> */}
-              <Controller
-                name="textareaField" // Set the name for your textarea
-                control={control}
-                defaultValue="" // Set default value if needed
-                render={({ field }) => (
-                  <textarea
-                    placeholder="About Your Project"
-                    className="area"
-                    {...field}
+              <div className="form__contact-home">
+                <div className="form1 form1__home">
+                  <input
+                    placeholder="Send Your Email"
+                    {...register("email", { required: true })}
+                    type="email"
+                    className="inp-1 home__inp1"
                   />
-                )}
-              />
-              <input type="submit" className="submit__form"/>
+                </div>
+                <div className="form2__home">
+                  <input type="submit" className="submit__form home__inp2" style={{color:"black"}}/>
+                </div>
+              </div>
             </form>
           </div>
         </div>

@@ -23,8 +23,7 @@ const Footer1 = () => {
           </div>
           <div className="footerfirst2">
             <p className='section__subtitle footer__sub'>
-              Building Dreams, Crafting Excellence: Your Trusted Partners for
-              Sustainable, Client-Centric Construction.
+            Creating Dreams, Crafting Excellence: Your Reliable Partners for Sustainable, Client-Centric Web development Solutions.
             </p>
           </div>
         </div>

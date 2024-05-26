@@ -8,7 +8,7 @@ import "./sec6.css";
 import "./test.css";
 import "./wyd.css";
 import "./contact.css";
-import { Controller } from "react-hook-form";
+// import { Controller } from "react-hook-form";
 import { useForm } from "react-hook-form";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

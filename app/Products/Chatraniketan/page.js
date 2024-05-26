@@ -6,9 +6,9 @@ import Image from "next/image";
 import '../../Home/home.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import chat1 from '../../../public/assets/chat1.jpg'
-import chat2 from '../../../public/assets/chat2.jpg'
-import chat3 from '../../../public/assets/chat3.jpg'
+// import chat1 from '../../../public/assets/chat1.jpg'
+// import chat2 from '../../../public/assets/chat2.jpg'
+// import chat3 from '../../../public/assets/chat3.jpg'
 const page = () => {
 
   

@@ -176,7 +176,7 @@ img {
 .section__subtitle {
     color: var(--text-color-alt);
     font-size: var(--smaller-font-size);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 400;
     margin-bottom: 60px;
     text-align: left;

@@ -294,7 +294,7 @@ const Home = () => {
 
                 <div className="about">
                   <h3>Experienced Team:</h3>
-                  <p classname="section__subtitle">
+                  <p className="section__subtitle">
                   Our skilled developers deliver top-notch web solutions tailored to your business.We create unique, user-friendly websites that reflect your brand.
                   </p>
                 </div>
@@ -306,7 +306,7 @@ const Home = () => {
 
                 <div className="about">
                   <h3>Custom Solutions: </h3>
-                  <p classname="section__subtitle">
+                  <p className="section__subtitle">
                   We create unique, user-friendly websites that reflect your brand.
 
                   </p>
@@ -319,7 +319,7 @@ const Home = () => {
 
                 <div className="about">
                   <h3>Latest Technology:</h3>
-                  <p classname="section__subtitle">
+                  <p className="section__subtitle">
                   We utilize cutting-edge tech to build modern, responsive, and SEO-friendly websites.
                   </p>
                 </div>
@@ -331,7 +331,7 @@ const Home = () => {
 
                 <div className="about">
                   <h3>Client-Focused:</h3>
-                  <p classname="section__subtitle">
+                  <p className="section__subtitle">
                   We prioritize your needs, ensuring a collaborative and transparent process.
                   </p>
                 </div>
@@ -343,7 +343,7 @@ const Home = () => {
 
                 <div className="about">
                   <h3>Timely Delivery:</h3>
-                  <p classname="section__subtitle">
+                  <p className="section__subtitle">
                   We guarantee on-time project completion without sacrificing quality.
 
                   </p>
@@ -356,7 +356,7 @@ const Home = () => {
 
                 <div className="about">
                   <h3>Ongoing Support:</h3>
-                  <p classname="section__subtitle">
+                  <p className="section__subtitle">
                   Post-launch, we offer continuous support to keep your site secure and up-to-date.
                   </p>
                 </div>

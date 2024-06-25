@@ -3,6 +3,7 @@ import './blog.css'
 import Image from 'next/image'
 // import app from "@/app/assets/app.jpg"
 import Link from 'next/link'
+import chat from "@public/assets/chat.jpg"
 
 const page = () => {
   return (
@@ -10,7 +11,7 @@ const page = () => {
         <div className="blog__cont container">
             <div className="card">
                 
-                <div className="img__cont"><img src="../../public/assets/app.jpg" alt='Image'/></div>
+                <div className="img__cont"><Image src={chat} alt='Image' className='blog__img'/></div>
                 <h2 className="section__title blog__head">How Much is a Pool Service?</h2>
                 <p>March, 2024</p>
                 <h3 className="section__subtitle">
@@ -19,7 +20,7 @@ const page = () => {
             </div>
             <div className="card">
 
-                <div className="img__cont"><img src="../../public/assets/app.jpg" alt='Image'/></div>
+                <div className="img__cont"><Image src={chat} alt='Image' className='blog__img'/></div>
                 
                 <h2 className="section__title blog__head">How Much is a Pool Service?</h2>
                 <p>March, 2024</p>
@@ -29,7 +30,7 @@ const page = () => {
             </div>
             <div className="card">
 
-                <div className="img__cont"><img src="../../public/assets/app.jpg" alt='Image'/></div>
+                <div className="img__cont"><Image src={chat} alt='Image' className='blog__img'/></div>
                 
                 <h2 className="section__title blog__head">How Much is a Pool Service?</h2>
                 <p>March, 2024</p>

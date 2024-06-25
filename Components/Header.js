@@ -211,6 +211,20 @@ function NavBar() {
                   Services
                 </Link>
               </li>
+              {/* <li className="nav-item">
+                <Link
+                  className={`nav-link items ${
+                    activeNavItem === "Blogs" ? "active" : ""
+                  }`}
+                  style={{
+                    color: `${scrollNav ? "" : "rgb(255, 237, 228)"}`,
+                  }}
+                  href="/Blog"
+                  onClick={() => handleNavLinkClick("Blogs")}
+                >
+                  Blogs
+                </Link>
+              </li> */}
               <li className="nav-item">
                 <Link
                   className={`nav-link items ${

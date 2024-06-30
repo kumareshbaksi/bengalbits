@@ -21,8 +21,9 @@ p{
 .main__work{
     /* background-color: var(--bg-color-alt); */
     /* background: var(--first-gradient); */ 
-    box-shadow: 5px 10px 25px 5px blue;
-    border-right: 5px solid blue;
+    /* box-shadow: 5px 10px 25px 5px blue; */
+    border-right: 7px solid blue;
+    border-bottom: 3px solid blue;
     border-radius: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -136,14 +137,5 @@ p{
     .slider__anim span{
         transform: rotateY(calc(var(--i) * 45deg)) translateZ(250px);
         -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004);
-    }
-}
-@media screen and (max-width:490px) {
-    .slider__anim span{
-        transform: rotateY(calc(var(--i) * 45deg)) translateZ(220px);
-    }
-    .slider__anim{
-        transform-style: unset;
-        animation: rotate1 10s linear infinite;
     }
 }

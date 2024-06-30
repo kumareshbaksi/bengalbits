@@ -17,27 +17,30 @@ const page = () => {
                 <h3 className="section__subtitle">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia, quidem ex minima nulla voluptate odio! Aperiam, tenetur. Facere enim officia optio maiores architecto? Porro doloribus consequatur maiores reprehenderit nobis?
                 </h3>
+                <Link href="/Blog1" className='main__link btn'>Read more</Link>
             </div>
             <div className="card">
-
-                <div className="img__cont"><Image src={chat} alt='Image' className='blog__img'/></div>
                 
+                <div className="img__cont"><Image src={chat} alt='Image' className='blog__img'/></div>
                 <h2 className="section__title blog__head">How Much is a Pool Service?</h2>
                 <p>March, 2024</p>
                 <h3 className="section__subtitle">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia, quidem ex minima nulla voluptate odio! Aperiam, tenetur. Facere enim officia optio maiores architecto? Porro doloribus consequatur maiores reprehenderit nobis?
                 </h3>
+                <Link href="/Blog1" className='main__link btn'>Read more</Link>
             </div>
             <div className="card">
-
-                <div className="img__cont"><Image src={chat} alt='Image' className='blog__img'/></div>
                 
+                <div className="img__cont"><Image src={chat} alt='Image' className='blog__img'/></div>
                 <h2 className="section__title blog__head">How Much is a Pool Service?</h2>
                 <p>March, 2024</p>
                 <h3 className="section__subtitle">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officia, quidem ex minima nulla voluptate odio! Aperiam, tenetur. Facere enim officia optio maiores architecto? Porro doloribus consequatur maiores reprehenderit nobis?
                 </h3>
+                <Link href="/Blog1" className='main__link btn'>Read more</Link>
             </div>
+            
+           
         </div>
     </section>
   )

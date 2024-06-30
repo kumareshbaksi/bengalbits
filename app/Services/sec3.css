@@ -3,8 +3,8 @@
 }
 
 .sec3__container {
-    border-right: 5px solid #5812a3;
-    box-shadow: 5px 25px 25px 10px rgb(18, 46, 87);
+    border-right: 7px solid blue;
+    /* box-shadow: 5px 5px 25px 5px #0195FF;; */
     border-radius: 15px;
 }
 .sec3__container h1{
@@ -70,6 +70,10 @@
 .img__sec3{
     height: 100%;
     border-radius: 10px;
+}
+
+.sec3__subt{
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {

@@ -3,6 +3,7 @@ import React from 'react'
 import Web from './web.jpg'
 import Ser from './ser.jpg'
 import ux3 from '@/public/assets/ux3.jpg'
+import ux4 from '@/public/assets/ux4.jpg'
 import './sec2.css'
 import './sec3.css'
 import './sec4.css'
@@ -16,7 +17,7 @@ const page = () => {
 
 <div className="background-video home" id="home">
         {/* <video autoPlay loop muted playsInline>
-            <source src="https://supportsoft.com.au/web/video/banner-bg.mp4" type="video/mp4" />
+            <source src="" type="video/mp4" />
             Your browser does not support the video tag.
           </video> */}
         <div className="image__item">
@@ -37,9 +38,9 @@ const page = () => {
 
     <section className="sec3 container" id='web'>
         <div className="sec3__container container">
-            <div className="sec3__heading section__title">
-                <h1>Website Development</h1>
-                <h2 className='section__subtitle'>We Create Responsive Custom Websites That Help Businesses Succeed</h2>
+            <div className="sec3__heading">
+                <h1 className='section__title'>Website Development</h1>
+                <h2 className='section__subtitle sec3__subt'>We Create Responsive Custom Websites That Help Businesses Succeed</h2>
 
                 <div className="btns btns1">
                 <button className="btn sec3__btn"  onClick={() => window.location.href = `tel:${phoneNumber}`}>Call Us</button>
@@ -50,13 +51,12 @@ const page = () => {
 
             <div className="sec3__content">
                 <div className="img__content">
-                    <Image className='img__sec3' src={Web} alt="" />
+                    <Image className='img__sec3' src={ux3} alt="" />
                 </div>
                 <div className="text__content">
                     <h1 className='section__title'>Customized web development solutions</h1>
                     <p className='section__subtitle'>Website development is the digital backbone of a company, shaping its online presence and customer interaction. It begins with understanding the company&apos;s goals, target audience, and branding identity. Designing a website involves creating a visually appealing layout that is intuitive to navigate. Development encompasses coding, ensuring functionality across various devices and browsers. Content creation is pivotal, conveying the company&apos;s message effectively. Integration of features like e-commerce or contact forms enhances user experience. Security measures must be implemented to protect sensitive data and maintain trust. Regular updates and maintenance keep the website running smoothly and up-to-date. Optimization for search engines boosts visibility and traffic. Ultimately, website development is a dynamic process, reflecting the company&apos;s growth and evolution in the digital era. 
-
-                    </p>
+</p>
                 </div>
             </div>
         </div>
@@ -81,9 +81,9 @@ const page = () => {
 
         <div className="side-bar">
                             <div className="row img__sec">
-                                     <span className="span1" aria-hidden="true"><Image src={ux3} alt="feature image" className="img-fluid rounded-custom"/></span> 
-                                     <span className="span1" aria-hidden="true"><Image src={ux3} alt="feature image" className="img-fluid rounded-custom"/></span> 
-                                     <span className="span1" aria-hidden="true"><Image src={ux3} alt="feature image" className="img-fluid rounded-custom"/></span> 
+                                     <span className="span1" aria-hidden="true"><Image src={ux4} alt="feature image" className="img-fluid rounded-custom"/></span> 
+                                     <span className="span1" aria-hidden="true"><Image src={ux4} alt="feature image" className="img-fluid rounded-custom"/></span> 
+                                     <span className="span1" aria-hidden="true"><Image src={ux4} alt="feature image" className="img-fluid rounded-custom"/></span> 
                                  
                             </div>
             </div>
@@ -95,34 +95,26 @@ const page = () => {
         <div className="sec4__container container">
         <div className="sec4__heading section__title">
                 <h1>UI/UX design</h1>
-                <h5 className='section__subtitle'>UI/UX design combines creativity and user understanding for great digital experiences. It focuses on easy interfaces, accessibility, and a strong brand look. Testing makes sure it works well. Teamwork between designers, developers, and others makes it even better. We keep making it better with feedback.</h5>
+                <h5 className='section__subtitle sec4__subt'>UI/UX design combines creativity and user understanding for great digital experiences. It focuses on easy interfaces, accessibility, and a strong brand look. Testing makes sure it works well. Teamwork between designers, developers, and others makes it even better. We keep making it better with feedback.</h5>
 
                 <div className="btns btns1">
                
-                <button className="btn sec3__btn"  onClick={() => window.location.href = `tel:${phoneNumber}`}>Call Us</button>
+                <button className="btn sec3__btn sec4__btn"  onClick={() => window.location.href = `tel:${phoneNumber}`}>Call Us</button>
                 {/* <button className="btn sec3__btn">Free consultation</button> */}
                 </div>
              
             </div>
 
         <div className="sec4__content">
-                <div className="content__item container">
+                <div className="content__item">
                 </div>
-                <div className="content__item container">
+                <div className="content__item">
                 </div>
-                <div className="content__item container">
+                <div className="content__item">
                 </div>
-                <div className="content__item container">
+                <div className="content__item">
                 </div>
 
-                {/* <div className="content__item container"  style={{backgroundImage:'url(https://supportsoft.com.au/uploads/project_images/638c383dfb959bbe5d4df77eaa243c14.jpg)'}}>
-                </div>
-                <div className="content__item container"  style={{backgroundImage:'Url(https://supportsoft.com.au/uploads/project_images/4b86b45df99fd266eac9ca452627a7e9.jpg)'}}>
-               
-                </div>
-                <div className="content__item container" style={{backgroundImage:'url(https://supportsoft.com.au/uploads/project_images/130eef601e5be6b34bc49191464a4892.jpg)'}}>
-               
-                </div> */}
         </div>
                </div>
        

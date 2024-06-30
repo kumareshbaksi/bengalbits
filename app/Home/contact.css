@@ -32,12 +32,6 @@ input {
     flex-direction: column;
 }
 
-.arrow{
-    font-size: var(--h2-font-size);
-    font-weight: 700;
-    color: red;
-}
-
 .heading__contact span{
     color: red;
 }
@@ -131,6 +125,14 @@ input{
 
 .tail{
     text-align: center;
+}
+
+.home-contact__container {
+    background-image: url('../../public/assets/bg4.jpg');
+    border-radius: 25px;
+    border-bottom: 5px solid blue;
+    border-left: 3px solid blue;
+    border-right: 8px solid blue;
 }
 
 @media screen and (max-width:1003px){

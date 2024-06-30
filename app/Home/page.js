@@ -154,7 +154,7 @@ const Home = () => {
       </div>
 
       <section className="work work__container container">
-        <div className="main__work container">
+        <div className="main__work container inner__container">
           <div className="content-1">
             <div className="section__heading">
               <h2 className="section__title">About Us</h2>
@@ -211,7 +211,7 @@ const Home = () => {
       </section>
 
       <section className="wyd container">
-        <div className="test__cont container">
+        <div className="test__cont container inner__container">
           <h1 className="section__heading section__title">What We Do</h1>
 
           <Slider className="slide container" {...settings2}>
@@ -276,7 +276,7 @@ const Home = () => {
       </section>
 
       <section className="sec1__container  container" id="about">
-        <div className="main__work container">
+        <div className="main__work container inner__container">
           <div className="section__heading">
             <h2 className="section__title">
               Why Choose Us
@@ -288,10 +288,10 @@ const Home = () => {
           <div className="sec-1">
             <div className="sec-1__first">
               <div className="icon-content">
-                <span className="icon">
+                <div className="icon__div"><span className="icon">
                   <RiTeamFill />
                 </span>
-
+</div>
                 <div className="about">
                   <h3>Experienced Team:</h3>
                   <p className="section__subtitle">
@@ -313,10 +313,10 @@ const Home = () => {
                 </div>
               </div> */}
               <div className="icon-content">
-                <span className="icon">
+                <div className="icon__div"><span className="icon">
                 <GrTechnology />
                 </span>
-
+</div>
                 <div className="about">
                   <h3>Latest Technology:</h3>
                   <p className="section__subtitle">
@@ -325,10 +325,10 @@ const Home = () => {
                 </div>
               </div>
               <div className="icon-content">
-                <span className="icon">
+                <div className="icon__div"><span className="icon">
                 <FaPersonCircleCheck />
                 </span>
-
+</div>
                 <div className="about">
                   <h3>Client-Focused:</h3>
                   <p className="section__subtitle">
@@ -337,10 +337,10 @@ const Home = () => {
                 </div>
               </div>
               <div className="icon-content">
-                <span className="icon">
+                <div className="icon__div"><span className="icon">
                   <FaUserClock/>
                 </span>
-
+</div>
                 <div className="about">
                   <h3>Timely Delivery:</h3>
                   <p className="section__subtitle">
@@ -350,10 +350,10 @@ const Home = () => {
                 </div>
               </div>
               <div className="icon-content">
-                <span className="icon">
+                <div className="icon__div"><span className="icon">
                   <SiGnuprivacyguard/>
                 </span>
-
+</div>
                 <div className="about">
                   <h3>Ongoing Support:</h3>
                   <p className="section__subtitle">
@@ -475,7 +475,7 @@ const Home = () => {
       </section> */}
 
       <section className="sec6 container">
-        <div className="sec6__container container">
+        <div className="sec6__container container inner__container">
           <div className="col-lg-5 col-md-12 sec6__img__content">
             <div className="position-relative img__left">
               <Image src={sec6} alt="mainImg" className="main__img" />
@@ -543,10 +543,10 @@ const Home = () => {
       {/*slider here*/}
 
       <section className="contact" id="contact">
-        <div className="container home-contact__container">
+        <div className="container home-contact__container inner__container">
           <div className="section__title">
             <h1 className="heading__contact section__title heading__contact">
-              Get in touch with<span>Us!</span>
+              Get in touch with <span>Us!</span>
             </h1>
           </div>
           <div className="form__home">

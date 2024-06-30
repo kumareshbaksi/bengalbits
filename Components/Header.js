@@ -211,7 +211,7 @@ function NavBar() {
                   Services
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className={`nav-link items ${
                     activeNavItem === "Blogs" ? "active" : ""
@@ -224,7 +224,7 @@ function NavBar() {
                 >
                   Blogs
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   className={`nav-link items ${
